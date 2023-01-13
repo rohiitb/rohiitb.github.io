@@ -52,7 +52,8 @@
         
         
         <table style="width:130%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-         <!-- Lane Detection -->
+        
+          <!--         Mask-RCNN -->
 
                    <tr onmouseout="nerf_stop()" onmouseover="nerf_start()">  <!--bgcolor="#ffffd0"-->
                      <td style="padding:20px;width:30%;vertical-align:middle">
@@ -94,29 +95,17 @@
                      
                      <td style="padding:20px;width:75%;vertical-align:middle">
                        <!--<a href="http://www.matthewtancik.com/nerf">-->
-                         <papertitle>Lane Lines Detection
+                         <papertitle>Instance Segmentation : Mask-RCNN (UPenn CIS 6800: Advanced Topics in Machine Perception)
          </papertitle>
                        </a>
                        <br>
-                       <strong>Dingding Zheng</strong>,
-<!--                       <a href="https://www.grasp.upenn.edu/people/shane-rozen-levy">Shane Rozen-Levy</a>,-->
-<!--                       <a href="https://www.grasp.upenn.edu/people/huaiyu-chen">Huaiyu Chen</a>-->
-         <!--              <a href="http://matthewtancik.com/">Matthew Tancik*</a>,-->
-         <!--              <strong>Jonathan T. Barron</strong>,-->
-         <!--              <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,-->
-         <!--              <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html">Ren Ng</a>-->
+                       <strong>Rohit Bhikule</strong>,
                        <br>
-                 <em>Summer 2021</em>
-                       <br>
-<!--                       <a href="data/MEAM620_proj1_1.pdf">project page</a>/-->
-
-<!--                       <a href="data/MEAM620_Project1_Team11_Report.pdf">report</a>/-->
-                       
-         <!--              <a href="https://github.com/zddkjmuner/Quadrotor-Control/blob/master/meam620-2020/proj1_1.pdf">project page</a>/-->
-         <!--              <a href="https://github.com/zddkjmuner/Quadrotor-Control/blob/master/meam620-2020/MEAM620_Project1_Team11_Report.pdf">report</a>-->
+                 <em>Fall 2022</em>
+                       <br>                       
 <!--                       <a href="https://youtu.be/W0gOJvOaMI8">video</a>-->
 <!--                 /-->
-<!--                       <a href="https://github.com/zddkjmuner/Quadrotor-Control">code</a>-->
+                      <a href="https://github.com/rohiitb/MaskRCNN">github code</a>
                        <p></p>
                        <p>
                        In this project, lane detection pipelines are implemented and tested on a real-world dataset.
@@ -127,18 +116,9 @@
                        <br>
                        To deal with these problems, an advanced pipleline is proposed. I computed the camera calibration matrix and distortion coefficients given a set of chessboard images. Following this, we can get undistorted images by using correction. Color transforms, gradients are used to create threshold binary images. Then, we can detect lane pixels and fit them to find the lane boundary. Finally, a video showing the lane boundaries and numerical estimation of lane curvature is generated.
                        <br>
-                    
-
-
                        </p>
                      </td>
                    </tr>
-            
-            
-            
-            
-            
-            
             
 
           <!-- Quadrotor -->
