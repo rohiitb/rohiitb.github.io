@@ -105,16 +105,13 @@
                        <br>                       
 <!--                       <a href="https://youtu.be/W0gOJvOaMI8">video</a>-->
 <!--                 /-->
-                      <a href="https://github.com/rohiitb/MaskRCNN">github code</a>
+                      <a href="https://github.com/rohiitb/MaskRCNN">Github code</a>
                        <p></p>
                        <p>
-                       In this project, lane detection pipelines are implemented and tested on a real-world dataset.
+                       In this project, Mask-RCNN object detection and instance segmentation pipeline is implemented and tested on COCO dataset consisting of 3 object classes - Animals, Vehicles and People.
                        <br>
                        <br>
-                       For straight lines detection, images are converted to greyscale and Gaussian Blur method is applied to reduce noise. Then the blurred images are passed to cv2.Canny with max and min thresholds. After finding the edges and defining the interested region, cv2.HoughLinesP and cv2.addWeighted methods are used to draw the detected lines to images. However, several shortcomings still exist for this simple pipeline: 1. min and max values of Hough transform are predefined. This may harm the performance when we are trying to detect dashed lines. 2. the simple pipeline are not fit for "curve finding". Imagine when a lane is turning at an angle large enough to move the "lane end " from picture center, the detected lines may not align with reality.
-                       <br>
-                       <br>
-                       To deal with these problems, an advanced pipleline is proposed. I computed the camera calibration matrix and distortion coefficients given a set of chessboard images. Following this, we can get undistorted images by using correction. Color transforms, gradients are used to create threshold binary images. Then, we can detect lane pixels and fit them to find the lane boundary. Finally, a video showing the lane boundaries and numerical estimation of lane curvature is generated.
+                       Mask RCNN is a a conceptually simple, flexible, and general framework for object instance segmentation.It extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. This pipeline was implemented to do per pixel object detection and the corresponding mask.
                        <br>
                        </p>
                      </td>
