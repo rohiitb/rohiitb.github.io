@@ -116,7 +116,7 @@
                 <papertitle>
                   Quadrotor Planning and Control (UPenn MEAM 620: Advanced Robotics)
                 </papertitle>
-        <em>Spring 2020</em>
+        <em>Spring 2022</em>
               <br>
               <a href="data/quad_controller.pdf"> Project page</a> /
 
@@ -220,29 +220,20 @@
                         <a href="https://github.com/rohiitb/MonteCarlo_localization_SLAM">Github code</a>
                         <p></p>
                         <p>
-                            This project shows an approach for mapping a scene while localizing the robot using a 2D laser scan. Here we integrated the IMU orientation and odometry information from a walking humanoid robot in order to build a 2D occupancy grid map of the walls and obstacles in the environment. Then additional camera and depth imagery from a Kinect sensor were integrated to build a textured map.
+                            This project shows an approach for mapping a scene while localizing the robot using a 2D laser scan. 
+                            Here we integrated the IMU orientation and odometry information from a walking humanoid robot in order to build a 2D occupancy grid map of the walls and obstacles in the environment. 
+                            Then additional camera and depth imagery from a Kinect sensor were integrated to build a textured map.
                             <br><br><br>
                         </p>
                       </td>
                     </tr>
 
           
-          <!-- Panoramic -->
+          <!-- UKF -->
           <tr onmouseout="nerf_stop()" onmouseover="nerf_start()">  <!--bgcolor="#ffffd0"-->
             <td style="padding:20px;width:25%;vertical-align:middle">
-<!--              <div class="one">-->
-<!--                  <img src='images/lab1_gif.gif' width="180" height="260">-->
-              <div class="one"><video width=230  muted autoplay loop>
-                  <source src='images/panorama_ukf.mp4' type="video/mp4">
-                  </video>
-                <!--<div class="two" id='nerf_image'><video  width=150% height=150% muted autoplay loop>
-                <source src="images/lab_1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/lab_still.png' width="120">-->
-<!--                <video  width=150% height=150% muted autoplay loop>-->
-<!--                    <source src="images/lab_1.mp4" type="video/mp4">-->
-<!--                </video>-->
+             <div class="one">
+               <img src='images/res1.png' width="180" height="260">
               </div>
               <script type="text/javascript">
                 function nerf_start() {
@@ -256,28 +247,12 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <!--<a href="http://www.matthewtancik.com/nerf">-->
-                <papertitle>Orienation Tracking based Panorama Stitching
-                  using Unscented Kalman Filter
-</papertitle>
-              </a>
-              <br>
-              <strong>Dingding Zheng</strong>
-<!--              <a href="http://matthewtancik.com/">Matthew Tancik*</a>,-->
-<!--              <strong>Jonathan T. Barron</strong>,-->
-<!--              <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,-->
-<!--              <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html">Ren Ng</a>-->
-              <br>
-        <em>Spring 2020</em>
-              <br>
+                <papertitle>Orienation Tracking using Unscented Kalman Filter</papertitle>
+                <em>Spring 2022</em>
+                <br>
               <!-- <a href="data/MEAM620_proj1_1.pdf">project page</a>/
               <a href="data/MEAM620_Project1_Team11_Report.pdf">report</a>/ -->
-              
-<!--              <a href="https://github.com/zddkjmuner/Quadrotor-Control/blob/master/meam620-2020/proj1_1.pdf">project page</a>/-->
-<!--              <a href="https://github.com/zddkjmuner/Quadrotor-Control/blob/master/meam620-2020/MEAM620_Project1_Team11_Report.pdf">report</a>-->
-              <!-- <a href="https://youtu.be/W0gOJvOaMI8">video</a>
-        /
-              <a href="https://github.com/zddkjmuner/Quadrotor-Control">code</a> -->
+              <a href="https://github.com/rohiitb/Orientation_tracking_using_UKF">Github code</a>
               <p></p>
               <p>
                   In this project, we implemented a kalman filter to track three dimensional orientation. Given IMU sensor readings from gyroscopes and accelerometers, we estimated the underlying 3D orientation by learning the appropriate model parameters from ground truth data given by a Vicon motion capture system. Finally, we generated real-time panoramic images from camera images using the 3D orientation filter.
@@ -285,139 +260,6 @@
             </td>
           </tr>
 
-     
-          
-          <!-- Mask RCNN -->
-          <tr onmouseout="learnaf_stop()" onmouseover="learnaf_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-<!--                <div class="two" id='learnaf_image'>-->
-<!--                  <img src='images/learnaf_after.jpg' width="160"></div>-->
-                <img src='images/mask_1.png' width="190" height="200">
-              </div>
-              <script type="text/javascript">
-                function learnaf_start() {
-                  document.getElementById('learnaf_image').style.opacity = "1";
-                }
-
-                function learnaf_stop() {
-                  document.getElementById('learnaf_image').style.opacity = "0";
-                }
-                learnaf_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-<!--              <a href="https://arxiv.org/abs/2004.12260">-->
-                <papertitle>Mask RCNN (UPenn CIS 680 Vision & Learning)</papertitle>
-              </a>
-              <br>
-<!--              <a href="">Charles Herrmann</a>,-->
-<!--              <a href="">Richard Strong Bowen</a>,-->
-<!--              <a href="http://nealwadhwa.com">Neal Wadhwa</a>,-->
-<!--              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,-->
-<!--              <a href="https://scholar.google.com/citations?user=BxqV_RsAAAAJ">Qiurui He</a>,-->
-              <strong>Dingding Zheng</strong>
-<!--              <a href="http://www.cs.cornell.edu/~rdz/index.htm">Ramin Zabih</a>-->
-              <br>
-              <em>Fall</em> 2019
-              <br>
-              <a href="data/maskrcnn_partb.pdf">project page</a>/
-
-              <a href="https://github.com/zddkjmuner/Mask-RCNN">code</a>
-              <p></p>
-              <p>Mask RCNN is a a conceptually simple, flexible, and general framework for object instance segmentation.It extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Here we implemented it to do per-pixel object detection.</p>
-            </td>
-          </tr>  
-
-    
-          <tr onmouseout="lighthouse_stop()" onmouseover="lighthouse_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-<!--                <div class="two" id='lh_image'><video width=100% height=100% muted autoplay loop>-->
-<!--                <source src="images/rings_crop.mp4" type="video/mp4">-->
-                <img src='images/carracingv0.gif' width="195">
-<!--                Your browser does not support the video tag.-->
-<!--                </video></div>-->
-<!--                <img src='images/rings.png' width="160">-->
-              </div>
-              <script type="text/javascript">
-                function lighthouse_start() {
-                  document.getElementById('lh_image').style.opacity = "1";
-                }
-
-                function lighthouse_stop() {
-                  document.getElementById('lh_image').style.opacity = "0";
-                }
-                lighthouse_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-<!--              <a href="https://people.eecs.berkeley.edu/~pratul/lighthouse/">-->
-                <papertitle>OpenAI gym racing car control using "Clipped PPO" (UPenn CIS 680 Final Project)</papertitle>
-              </a>
-              <br>
-              <strong>Dingding Zheng</strong>,
-              <a href="https://www.grasp.upenn.edu/people/mengwei-zhang">Mengwei Zhang</a>,
-              <a href="https://www.linkedin.com/in/huizehuang/">Huize Huang</a>
-<!--              <p>Huize Huang</p>-->
-<!--              <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>-->
-              <br>
-        <em>Fall</em> 2020
-              <br>
-              <a href="data/CIS_680_PROJECT_REPORT.pdf">report</a>
-        /
-              <a href="https://github.com/zddkjmuner/OpenAI-Racing-Car-using-PPO">code</a>
-<!--              <a href="https://www.youtube.com/watch?v=KsiZpUFPqIU">video</a>-->
-              <p></p>
-              <p>In this project, we implemented "Clipped Proximal Policy Optimization (Clipped PPO)" algorithm and applied it in OpenAI racing-car v0.</p>
-            </td>
-          </tr>  
-
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-<!--                <div class="two" id='nightsight_image'><img src='images/nightsight_after.jpg'></div>-->
-                <img src='images/GAN.png' width="190">
-              </div>
-              <script type="text/javascript">
-                function nightsight_start() {
-                  document.getElementById('nightsight_image').style.opacity = "1";
-                }
-
-                function nightsight_stop() {
-                  document.getElementById('nightsight_image').style.opacity = "0";
-                }
-                nightsight_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-<!--              <a href="https://arxiv.org/abs/1910.11336">-->
-                <papertitle>GAN (UPenn CIS 680 Vision & Learning)</papertitle>
-              </a>
-              <br>
-<!--              <a href="https://sites.google.com/site/orlylibaprofessional/">Orly Liba</a>,-->
-<!--              <a href="https://scholar.google.com/citations?user=6PhlPWMAAAAJ">Kiran Murthy</a>,-->
-<!--              <a href="https://ai.google/research/people/105312/">Yun-Ta Tsai</a>,-->
-<!--              <a href="https://www.timothybrooks.com/">Timothy Brooks</a>,-->
-<!--              <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>,-->
-<!--              <a href="https://scholar.google.com/citations?user=qgc_jY0AAAAJ">Nikhil Karnad</a>,-->
-              <a href="https://www.linkedin.com/in/huizehuang/">Huize Huang</a>,
-              <strong>Dingding Zheng</strong>,
-              <a href="https://www.grasp.upenn.edu/people/mengwei-zhang">Mengwei Zhang</a>
-<!--              <a href="http://www.geisswerks.com/">Ryan Geiss</a>,-->
-<!--              <a href="https://people.csail.mit.edu/hasinoff/">Samuel W. Hasinoff</a>,-->
-<!--              <a href="https://scholar.google.com/citations?user=2jXxOYQAAAAJ">Yael Pritch</a>,-->
-<!--              <a href="http://graphics.stanford.edu/~levoy/">Marc Levoy</a>-->
-              <br>
-              <em>Fall</em> 2019
-              <br>
-              <a href="data/CIS680-HW4.pdf">project page</a>/
-              <a href="https://github.com/zddkjmuner/Generative-Models">code</a>
-              <br>
-              <p></p>
-              <p>Down-sampled the original images to get low-resolution images. Then implemented GAN to generate high-resolution images. We used MSE loss and <a href="https://github.com/richzhang/PerceptualSimilarity">Learned Perceptual Image Patch Similarity (LPIPS)</a> metric to judge the model performance.</p>
-            </td>
-          </tr>
           
           <tr onmouseout="font_stop()" onmouseover="font_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
