@@ -197,7 +197,7 @@
           <tr onmouseout="nerf_stop()" onmouseover="nerf_start()">  <!--bgcolor="#ffffd0"-->
                       <td style="padding:20px;width:25%;vertical-align:middle">
                         <div class="one">
-                          <img src='images/map1.PNG' width="350" height="200">
+                          <img src='images/map1.PNG' width="200" height="200">
                         </div>
                         <script type="text/javascript">
                           function nerf_start() {
@@ -231,7 +231,7 @@
           <tr onmouseout="nerf_stop()" onmouseover="nerf_start()">  <!--bgcolor="#ffffd0"-->
             <td style="padding:20px;width:25%;vertical-align:middle">
              <div class="one">
-               <img src='images/res1.png' width="180" height="260">
+               <img src='images/res1.png' width="270" height="180">
               </div>
               <script type="text/javascript">
                 function nerf_start() {
@@ -257,6 +257,8 @@
             </td>
           </tr>
 
+          
+          
           <!-- UKF -->
 
           <tr onmouseout="font_stop()" onmouseover="font_start()">
@@ -295,49 +297,9 @@
             </td>
           </tr>
           
-          <!-- GMM -->
+          
 
-          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
-            <td style="padding:30px;width:25%;vertical-align:middle">
-              <div class="one">
-<!--                <div class="two" id='dpzlearn_image'><img src='images/dpzlearn_after.jpg'></div>-->
-                <img src='images/GMM_CP.gif' width="213" height="210">
-              </div>
-              <script type="text/javascript">
-                function dpzlearn_start() {
-                  document.getElementById('dpzlearn_image').style.opacity = "1";
-                }
-
-                function dpzlearn_stop() {
-                  document.getElementById('dpzlearn_image').style.opacity = "0";
-                }
-                dpzlearn_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-<!--              <a href="https://arxiv.org/abs/1904.05822">-->
-                <papertitle>Barrel Detection using Color Segmentation based
-                  on GMMs</papertitle>
-              </a>
-              <br>
-<!--              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,-->
-<!--              <a href="http://nealwadhwa.com">Neal Wadhwa</a>,-->
-<!--              <a href="">Sameer Ansari,</a>,-->
-              <strong>Dingding Zheng</strong>
-              <br>
-              <em>Spring</em> 2019
-<!--              &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>-->
-              <br>
-<!--              <a href="https://github.com/google-research/google-research/tree/master/dual_pixels">code</a> /-->
-<!--              <a href="data/GargICCV2019.bib">bibtex</a>-->
-<!--              <p></p>-->
-              <p>We trained a GMM-based model to detect barrels in images and found the relative world coordinates of the barrel from images. Algorithms are implemented to learn the color model, segment the target color and finally localize the target object from images. We hand-labeled the training sets and then built a color classifier and a red barrel detector. Bounding boxes, distance to the barrels and the orientations are returned as the outputs of the model.</p>
-            </td>
-          </tr>
-          <br>
-          <br>
-
-            <!-- Pose Estimation -->
+            <!-- 3D Reconstruction from images -->
             <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
               <td style="padding:30px;width:25%;vertical-align:middle">
                 <div class="one">
