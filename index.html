@@ -225,7 +225,7 @@
                             This project shows an approach for mapping a scene while localizing the robot using a 2D laser scan. 
                             Here we integrated the IMU orientation and odometry information from a walking humanoid robot in order to build a 2D occupancy grid map of the walls and obstacles in the environment. 
                             Then additional camera and depth imagery from a Kinect sensor were integrated to build a textured map.
-                            <br><br><br>
+                            <br>
                         </p>
                       </td>
                     </tr>
@@ -250,7 +250,7 @@
                         </script>
                       </td>
                       <td style="padding:20px;width:75%;vertical-align:middle">
-                          <papertitle>7DoF Robotic Arm Manipulation using MPC and Vision-based Object gripping
+                          <papertitle>7-DoF Robotic Arm Manipulation using MPC and Vision-based Object grasping
                           </papertitle>
                         <br>
                       <em>Fall 2022</em>
@@ -260,10 +260,12 @@
                         Code:<a href="https://github.com/rohiitb/manipulator_mpc"> Github</a>
                         <p></p>
                         <p>
-                            This project shows an approach for mapping a scene while localizing the robot using a 2D laser scan. 
-                            Here we integrated the IMU orientation and odometry information from a walking humanoid robot in order to build a 2D occupancy grid map of the walls and obstacles in the environment. 
-                            Then additional camera and depth imagery from a Kinect sensor were integrated to build a textured map.
-                            <br><br><br>
+                            In this project, for the first stage, we succesfully solved the task of picking up static and dynamic cubes. Cubes were having Apriltags on thier faces which were used to get the pose. <br>
+                            Implemented forward kinematics, inverse kinematics to plan a pathto pick up the cubes and stack them to create a tower.<br>
+                            Implemented A*, Rapidly Exploring Random Trees (RRT) algorithm in ROS for 7-DoF FrankaPanda Arm to plan a path to pick up the cubes.<br>
+                            For the second stage, we implemented a finite horizon Model Predictive Control (MPC) with position, velocity, acceleration control with the waypoints given by RRT algorithm.<br>
+                            For the third stage, we implemented Heirarchical MPC algorithm where MPC was optimizing the path given by RRT and choosing the path with least cost.  
+                            <br>
                         </p>
                       </td>
                     </tr>
