@@ -52,6 +52,49 @@
         
         
         <table style="width:130%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+<!--                   Rebar Detection -->
+
+                   <tr onmouseout="nerf_stop()" onmouseover="nerf_start()"> 
+                     <td style="padding:20px;width:30%;vertical-align:middle">
+                      <div class="one">
+                          <img src='images/mh1.png' width="200" height="200">
+                      </div>
+                       
+                       <script type="text/javascript">
+                         function nerf_start() {
+                           document.getElementById('nerf_image').style.opacity = "1";
+                         }
+
+                         function nerf_stop() {
+                           document.getElementById('nerf_image').style.opacity = "0";
+                         }
+                         nerf_stop()
+                       </script>
+                     </td>
+                     
+                     
+                     <td style="padding:20px;width:75%;vertical-align:middle">
+                       <papertitle>
+                         Rebar Intersection detection and tracking (Skymul, Atlanta)
+                        </papertitle>
+                       <br>
+                       <b>
+                 <em>Summer 2022 (Internship)</em>
+                       
+                       <br>                       
+                      Video:<a href="https://github.com/rohiitb/MaskRCNN"> Link</a>
+                       <p></p>
+                       <p>
+                         In this project, we developed a novel algorithm for detecting rebar intersections in a densely multilayered rebar network which are used in construction sites.<br>
+                         Intel Realsense RGB-D camera was used to obtain the pointcloud. Planar segmentation was done on the obtained pointcloud to get the topmost layer of the rebar 
+                         and independent rebars were identified followed by rebar intersections. Pose detection was done on the rebar intersection to find out the direction of approach of the quadraped robot.
+                         Additionaly, each rebar intersection was mapped in the global frame and given unique id.<br>
+                         
+                       <br>
+                       </p>
+                     </td>
+                   </tr>
         
           <!--         Mask-RCNN -->
 
