@@ -104,7 +104,7 @@
                          In this project, we developed a novel algorithm for detecting rebar intersections real-time in a fast manner in a densely multilayered rebar network which are used in construction sites.<br>
                          Intel Realsense RGB-D camera was used to obtain the pointcloud. Planar segmentation was done to get the topmost layer of the rebar 
                          and independent rebars were identified followed by rebar intersections. Pose detection was done on the rebar intersection to find out the direction of approach of the quadraped robot.
-                         Additionaly, each rebar intersection was mapped in the global frame and with a unique id. <br>
+                         Additionaly, each rebar intersection was mapped in the global frame with a unique id. <br>
                          We also worked on treating the intersections as landmarks to perform graph optimization using g2o, gtsam packages and minimize the drift in the odometry of the robot.<br>
                          I also worked on generating pointclouds from multiple photos taken with a drone using photogrammetry and increasing the confidence score of the rebars in the pointclouds.
                          
@@ -280,7 +280,7 @@
                         Code:<a href="https://github.com/rohiitb/manipulator_mpc"> Github</a>
                         <p></p>
                         <p>
-                            In this project, for the first stage, we succesfully solved the task of picking up static and dynamic cubes. Cubes were having Apriltags on thier faces which were used to get the pose. <br>
+                            In this project, for the first stage, we succesfully solved the task of picking up static and dynamic cubes. Cubes were having Apriltags on their faces which were used to get the pose. <br>
                             Implemented forward kinematics, inverse kinematics to plan a path to pick up the cubes and stack them to create a tower.<br>
                             Implemented A*, Rapidly Exploring Random Trees (RRT) algorithm in ROS for 7-DoF FrankaPanda Arm to plan a path to pick up the cubes.<br>
                             For the second stage, we implemented a finite horizon Model Predictive Control (MPC) with position, velocity, acceleration control with the waypoints given by RRT algorithm.<br>
@@ -346,7 +346,7 @@
                      
                      <td style="padding:20px;width:75%;vertical-align:middle">
                        <papertitle>
-                         Instance Segmentation : Mask-RCNN 
+                         Mask-RCNN (Instance Segmentation) 
                         </papertitle>
                        <br>
                  <em>Fall 2022</em>
@@ -449,7 +449,9 @@
               Code:<a href="https://github.com/rohiitb/Two_view_stereo_3D_reconstruction"> Github</a>
                 <br>
                 <p>
-                In this project, we were given an image of oilcan to tain a heatmap-based neural network which estimates the location of the keypoints in that image. Each 2D heatmap corresponded to one keypoint and was responsible to localize this particular keypoint in the image. During training, we synthesized the heatmaps by identifying the location of each keypoint on the 2D image and placing a 2D Gaussian centered on this location on the corresponding heatmap. Then, we used the coordinates of detected keypoints to estimate the 6DoF pose of the object.
+                  In this project, we were given multiple images of a scene. We reconstructed the 3D pointcloud of the scene using 2 algorithms.<br>
+                  Two-View Stereo: We generated the disparity map using distance metric kernels such as ssd, sad and zncc which gave the depth map of the scene.<br>
+                  Multiview Stereo: We constructed a cost volume by stacking depth cost maps obtained by projecting reference view and warped neighboring view using homography.
                 </p>
               </td>
             </tr>
