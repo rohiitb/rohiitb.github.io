@@ -169,12 +169,10 @@
                        <p></p>
                        <p>
                          In this project, we developed a novel algorithm for detecting rebar intersections real-time in a fast manner in a densely multilayered rebar network which are used in construction sites.<br>
-                         Intel Realsense RGB-D camera was used to obtain the pointcloud. Planar segmentation was done to get the topmost layer of the rebar 
-                         and independent rebars were identified followed by rebar intersections. Pose detection was done on the rebar intersection to find out the direction of approach of the quadraped robot.
+                         Intel Realsense RGB-D camera was used to obtain the pointcloud. The noisy pointcloud was filtered and planar segmentation was done to get the topmost layer of the rebar to find the intersection poses.                         . Pose detection was done on the rebar intersection to find out the direction of approach of the quadraped robot.
                          Additionaly, each rebar intersection was mapped in the global frame with a unique id. <br>
-                         We also worked on treating the intersections as landmarks to perform graph optimization using g2o, gtsam packages and minimize the drift in the odometry of the robot.<br>
-                         I also worked on generating pointclouds from multiple photos taken with a drone using photogrammetry and increasing the confidence score of the rebars in the pointclouds.
-                         
+                         We also worked on implementing Factor Graphs by treating the intersections as landmarks using g2o, gtsam packages and minimize the drift in the odometry of the robot.<br>
+                         Also, scripted a pipeline to generate pointclouds from multiple photos taken with a drone using photogrammetry and increasing the confidence score of the rebars in the pointclouds.
                        <br>
                        </p>
                      </td>
