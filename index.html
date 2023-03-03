@@ -171,7 +171,7 @@
                          In this project, we developed a novel algorithm for detecting rebar intersections real-time in a fast manner (6 FPS) in a densely multilayered rebar network which are used in construction sites.<br>
                          Intel Realsense RGB-D camera was used to obtain the pointcloud. The noisy pointcloud was processed and planar segmentation was done to get the topmost layer of the rebar to find the intersection poses.                         . Pose detection was done on the rebar intersection to find out the direction of approach of the quadraped robot.
                          Additionaly, each rebar intersection was mapped in the global frame with a unique id. <br>
-                         We also worked on implementing factor Graphs to minimize the drift in the odometry of the robot by treating the intersections as landmarks using gtsam packages.<br>
+                         We also worked on implementing factor graphs to minimize the drift in the odometry of the robot by treating the intersections as landmarks using gtsam packages.<br>
                          Also, scripted a pipeline to generate pointclouds from multiple photos taken with a drone using photogrammetry and increasing the confidence score of the rebars in the pointclouds.
                        <br>
                        </p>
@@ -208,11 +208,11 @@
               <br>
               Code:<a href="https://github.com/rohiitb/semantic_mapping_icp"> Github</a>
               <p></p>
-              <p> 
-                In this case, SegFormer Transformer network is used to perform semantic segmentation on the images and the 
-                corresponding points in the pointcloud obtained from the LiDAR is classified. 
-                Several ICP registration trials using Open3d are also carried out to merge the pointclouds to obtain 3D reconstruction of the scene. 
-                For each pointcloud, the Bird's eye view is also obtained.
+              <p> In this project, sensor fusion of LiDAR and camera was carried out on the Kitti dataset to obtain painted pointcloud.<br>
+                LiDAR pointcloud was projected on the images. Pointcloud segmentation is carried out on the images and 
+                each corresponding point in the pointcloud is classified and painted.
+                ICP registration trials using Open3d are carried out to merge the pointclouds to obtain 3D reconstruction of the scene. 
+                Finally, for each pointcloud, the Bird's eye view is also obtained.
                   <br>
               </p>
             </td>
