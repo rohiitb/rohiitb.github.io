@@ -177,6 +177,51 @@
                        </p>
                      </td>
                    </tr>
+          
+         <!-- F1 tenth -->
+
+         <tr onmouseout="porshadmanip_stop()" onmouseover="porshadmanip_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/race.gif' width="220" height="220">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://f1tenth.org/">
+                <papertitle>F1tenth Racing (UPenn ESE 615 Autonomous Racing)</papertitle>
+              </a>
+              <br>
+              <a href="https://www.linkedin.com/in/shivangimisra1/">Shivangi Misra</a>,
+              <strong>Dingding Zheng</strong>,
+              <a href="https://weiyi-tang.netlify.app/">Weiyi Tang</a>
+              <br>
+              <em>Spring</em> 2020
+              <br>
+              <a href="https://f1tenth.org/">project page</a> /
+              
+              <a href="data/ESE_615_Final_Report_by_Team_1.pdf">report</a>/
+              <a href="https://github.com/zddkjmuner/Autonomous-Racing">code</a>
+              <p></p>
+              <p><a href="https://f1tenth.org/build.html">”F1tenth”</a> is an open-source, small-scale racing car platform
+                widely used for teaching and research in safe autonomy.
+                Maneuvering a racing car to finish loops in minimum time
+                has been studied for decades. However, it’s always computationally
+                expensive and infeasible to solve this problem by
+                real-time trajectory planning. In this project, we generated
+                a velocity profile to find the maximum permissible speed of
+                racing car on each waypoint on the path. Then, we use CMAES
+                (Covariance Matrix Adaptation - Evolution Strategy) to
+                generate the desired path for vehicle to track. The generated
+                path has a relatively small curvature which allows the racing
+                car to run at high, steady speed. Pure pursuit is used as
+                the vehicle controller. To avoid obstacles, we implemented
+                ODG-PFM (Obstacle-Dependent Gaussian Potential
+                Field) and compared its performance VS. RRT*. In order to
+                measure the performance of these two algorithms, we setup
+                several testing maps and added noise to the environment.
+              </p>
+            </td>
+          </tr>    
+         
         
          <!-- Semantic segmentation Mapping -->
 
