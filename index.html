@@ -200,19 +200,11 @@
                 has been studied for decades. However, it’s always computationally
                 expensive and infeasible to solve this problem by
                 real-time trajectory planning.
+                The car is powered by Nvidia Jetson Xavier.
                 <br> 
-                In this project, we generated
-                a velocity profile to find the maximum permissible speed of
-                racing car on each waypoint on the path. Then, we use CMAES
-                (Covariance Matrix Adaptation - Evolution Strategy) to
-                generate the desired path for vehicle to track. The generated
-                path has a relatively small curvature which allows the racing
-                car to run at high, steady speed. Pure pursuit is used as
-                the vehicle controller. To avoid obstacles, we implemented
-                ODG-PFM (Obstacle-Dependent Gaussian Potential
-                Field) and compared its performance VS. RRT*. In order to
-                measure the performance of these two algorithms, we setup
-                several testing maps and added noise to the environment.
+                In this project, an occupancy grid map was created from Hokuyo 2D LiDAR by scan-matching algorithm. The autonomous car was localized using 
+                Particle Filter. Pure Pursuit controller was implemented to follow a desired racing line trajectory at 6 m/s velocity. Also, implemented Gap follow
+                algorithm to navigate the car through an obstacle cluttered environment.
               </p>
             </td>
           </tr>    
