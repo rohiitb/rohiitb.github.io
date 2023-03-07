@@ -180,10 +180,10 @@
           
          <!-- F1 tenth -->
 
-<!--          <tr onmouseout="porshadmanip_stop()" onmouseover="porshadmanip_start()">
+         <tr onmouseout="porshadmanip_stop()" onmouseover="porshadmanip_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='images/race.gif' width="220" height="220">
+                <img src='images/pp_gif.gif' width="220" height="220">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
                 <papertitle>F1tenth Racing (UPenn ESE 6150 Autonomous Racing)</papertitle>
@@ -202,11 +202,12 @@
                 The car is powered by Nvidia Jetson Xavier.
                 <br> 
                 In this project, an occupancy grid map was created from Hokuyo 2D LiDAR by scan-matching algorithm. The autonomous car was localized using 
-                Particle Filter. Pure Pursuit controller was implemented to follow a desired racing line trajectory at 6 m/s velocity. Also, implemented Gap follow
+                Particle Filter. Pure Pursuit controller was implemented to follow a desired racing line trajectory at 6 m/s velocity. Trajectory Optimization was also done 
+                using Direct Collocation to obtain optimal control inputs. Also, implemented Gap follow
                 algorithm to navigate the car through an obstacle cluttered environment. Created ROS2 packages for the above to be deployed on a simulator as well as the actual car.
               </p>
             </td>
-          </tr>     -->
+          </tr>    
          
         
          <!-- Semantic segmentation Mapping -->
