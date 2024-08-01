@@ -216,6 +216,32 @@
               </p>
             </td>
           </tr>    
+
+        
+         <!-- Local INN -->
+
+         <tr onmouseout="porshadmanip_stop()" onmouseover="porshadmanip_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/pp_gif.gif' width="220" height="220">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Local-INN localization with IMU sensor fusion</papertitle>
+              <br>
+              <em>Spring</em> 2023
+              <br>
+              Video:<a href="https://www.youtube.com/watch?v=b8snzIRC3zA"> Video</a>
+              <p>
+                Improved accuracy of Local-INN to output pose at 40 Hz from 2D lidar scans by fusing it with IMU using Unscented Kalman Filter. 
+                Localization was deployed on an F1Tenth car in TensorRT and validated.
+                <br>
+                Invertible Neural network provides implicit map representation in
+                the forward path and localization in the inverse path. By sampling
+                the latent space in evaluation, Local INN outputs robot poses
+                with covariance, which can be used to estimate the uncertainty.
+              </p>
+            </td>
+          </tr>    
          
         
          <!-- Semantic segmentation Mapping -->
