@@ -62,12 +62,12 @@ body {
 .experience-block {
     margin: 20px 0;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 12px;
     background: #ffffff;
     box-shadow: 0 -2px 4px rgba(0,0,0,0.02),
-                -2px 0 4px rgba(0,0,0,0.05), 
-                2px 0 4px rgba(0,0,0,0.05),
-                0 2px 4px rgba(0,0,0,0.1);
+                -2px 0 4px rgba(0,0,0,0.1), 
+                2px 0 4px rgba(0,0,0,0.1),
+                0 2px 4px rgba(0,0,0,0.2);
 }
 
 .experience-content {
