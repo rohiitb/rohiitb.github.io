@@ -19,7 +19,7 @@ Experience
 ======
 <div class="experience-block">
 
-<div markdown="1">
+<div class="hyperlink">
 [Terran Robotics](https://terranrobotics.ai/) | **Senior Robotics Software Engineer**  <span class="location">Bloomington, IN</span>
 ------
 </div>
@@ -33,7 +33,7 @@ Experience
 </div>
 
 
-<div markdown="1">
+<div class="hyperlink">
 [Skymul](https://skymul.com/) | **Perception Intern**  <span class="location">Atlanta, GA</span>
 ------
 </div>
@@ -43,7 +43,7 @@ Experience
 </div>
 
 
-<div markdown="1">
+<div class="hyperlink">
 UPenn | mLab | **Research Assistant**  <span class="location">Philadelphia, PA</span>
 ------
 </div>
@@ -75,6 +75,26 @@ UPenn | mLab | **Research Assistant**  <span class="location">Philadelphia, PA</
     border-radius: 4px;
     font-weight: bold;
 }
+
+.hyperlink {
+    color: #1565c0;
+    text-decoration: none;
+    position: relative;
+    padding-left: 18px;
+}
+
+.hyperlink::before {
+    content: '🔗';
+    position: absolute;
+    left: 0;
+    font-size: 0.9em;
+}
+
+.highlight::before {
+    content: '🔗';
+    position: absolute;
+    left: 0;
+    font-size: 0.9em;
 
 .achievement {
     background: #e3f2fd;
