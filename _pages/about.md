@@ -72,6 +72,7 @@ Experience
   .experience-content {
       margin-left: 20px;
       padding: 10px 0;
+      margin-bottom: 50px;
   }
 
   .highlight {
@@ -95,6 +96,8 @@ Experience
 
   .hyperlink {
       position: relative;
+      margin-top: 40px;
+      margin-bottom: 20px;
   }
 
   .hyperlink a {
