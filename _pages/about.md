@@ -29,18 +29,17 @@ Terran Robotics | Senior Robotics Software Engineer
 - Scripted pipeline to convert stl CAD files of house walls to 2-dimensional goal depth maps and plan operations.
 
 
-Professional Experience
-======
-
-Terran Robotics (Bloomington, IN) - **Senior Robotics Software Engineer**
-------
-
-
-
 Skymul (Atlanta) - **Perception Intern**
 ------
 
-My role at Skymul had been to integrate hardware components and create an end-to-end software pipeline for performing waypoint navigation on a mobile platform. During the period of my internship, I've had the opportunity to interact with hardware and learn how to use software drivers to integrate them into a complete system. I worked mainly on integrating three different hardware platforms with the robot. The aim was to test the accuracy of these sensor platforms and decide the best for the robot’s task at hand. 
+- Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (6 FPS) in a densely multilayered rebar network on quadraped robot. 
+
+UPenn | mLab - **Research Assistant**
+------
+
+- Acheived <b>1st</b> place in the <b>12th F1Tenth Autonomous Grand Prix</b> at the <b>CPS-IoT 2023 conference</b>.
+- Implemented a finite state machine to switch between overtaking, adaptive cruise control and pure pursuit modes on an F1Tenth car.
+
 
 Projects
 ======
