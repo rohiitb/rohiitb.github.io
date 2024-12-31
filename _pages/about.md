@@ -20,7 +20,7 @@ Experience
 <div class="experience-block">
 
 <div markdown="1">
-[Terran Robotics](https://terranrobotics.ai/) | **Senior Robotics Software Engineer**
+[Terran Robotics](https://terranrobotics.ai/) | **Senior Robotics Software Engineer**  <span class="location">Bloomington, IN</span>
 ------
 </div>
 
@@ -34,7 +34,7 @@ Experience
 
 
 <div markdown="1">
-[Skymul](https://skymul.com/) | **Perception Intern** <span class="location">Atlanta</span>
+[Skymul](https://skymul.com/) | **Perception Intern**  <span class="location">Atlanta, GA</span>
 ------
 </div>
 
@@ -44,7 +44,7 @@ Experience
 
 
 <div markdown="1">
-UPenn | mLab | **Research Assistant**
+UPenn | mLab | **Research Assistant**  <span class="location">Philadelphia, PA</span>
 ------
 </div>
 
@@ -69,17 +69,11 @@ UPenn | mLab | **Research Assistant**
 }
 
 .highlight {
-    color: inherit;
-    font-weight: 500;
-    position: relative;
-    padding-left: 18px;
-}
-
-.highlight::before {
-    content: '🔗';
-    position: absolute;
-    left: 0;
-    font-size: 0.9em;
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
 .achievement {
