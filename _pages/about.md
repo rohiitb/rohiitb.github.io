@@ -23,11 +23,12 @@ Experience
 </div>
 
 <div class="experience-content">
-- Developed a custom <span class="highlight_important">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags and encoder data, and implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight_important">10 Hz pose output with 5 mm accuracy</span>. <br>
-- Designed and implemented adaptive algorithm to autonomously perform pick-and-place operations on earthern-clay blobs and hammer them into walls using pointcloud data, 
-  utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in <span class="highlight_important">30% faster speed, 2x more accuracy</span>. <br>
-- Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations. <br>
-- Scripted pipeline to convert stl CAD files of house walls to 2-dimensional goal depth maps and plan operations.
+<ul>
+  <li>Developed a custom <span class="highlight_important">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags and encoder data, and implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight_important">10 Hz pose output with 5 mm accuracy</span>.</li>
+  <li>Designed and implemented adaptive algorithm to autonomously perform pick-and-place operations on earthern-clay blobs and hammer them into walls using pointcloud data, utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in <span class="highlight_important">30% faster speed, 2x more accuracy</span>.</li>
+  <li>Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations.</li>
+  <li>Scripted pipeline to convert stl CAD files of house walls to 2-dimensional goal depth maps and plan operations.</li>
+</ul>
 </div>
 
 
