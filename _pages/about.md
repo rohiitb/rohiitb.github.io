@@ -55,6 +55,10 @@ Experience
 </div>
 
 <style>
+body {
+    background-color: #f5f5f5;
+}
+
 .experience-block {
     margin: 20px 0;
     padding: 15px;
