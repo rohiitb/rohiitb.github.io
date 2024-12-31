@@ -4,7 +4,8 @@ title: "Portfolio"
 excerpt: "Rohit Bhikule's Professional Portfolio - Software Engineer specializing in Robotics"
 author_profile: true
 ---
-
+<br>
+<br>
 About Me
 ======
 <div class="experience-block">
@@ -31,6 +32,7 @@ Experience
 </ul>
 </div>
 
+<br>
 
 <div class="hyperlink">
 <span class="highlight_role">Perception Intern</span> | 🔗 <a href="https://skymul.com/">Skymul</a> <span class="location">Atlanta, GA</span>
@@ -41,6 +43,8 @@ Experience
   <li>Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (<span class="highlight_important">6 FPS</span>) in a densely multilayered rebar network on quadraped robot.</li>
 </ul>
 </div>
+
+<br>
 
 <div class="hyperlink">
 <span class="highlight_role">Research Assistant</span> | 🔗 <a href="https://xlab.upenn.edu/">xLab</a> <span class="location">Philadelphia, PA</span>
