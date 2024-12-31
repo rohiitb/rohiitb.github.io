@@ -18,27 +18,76 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 Experience
 ======
 
-Terran Robotics | Senior Robotics Software Engineer
+<div class="experience-block">
+
+[Terran Robotics](https://terranrobotics.ai/) | **Senior Robotics Software Engineer**
 ------
 
-- Developed a custom GTSAM-based SLAM solution to localize cable-driven parallel robots using AprilTags and encoder data, and implemented a parallel 
-  processing pipeline with distributed computing framework python ray in ROS to achieve 10 Hz pose output with 5 mm accuracy.
+<div class="experience-content">
+- Developed a custom <span class="highlight">GTSAM-based SLAM solution</span> to localize cable-driven parallel robots using AprilTags and encoder data, and implemented a parallel 
+  processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight">10 Hz pose output with 5 mm accuracy</span>.
 - Designed and implemented adaptive algorithm to autonomously perform pick-and-place operations on earthern-clay blobs and hammer them into walls using pointcloud data, 
-  utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in 30 perecent faster speed, 2x more accuracy.
+  utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in <span class="highlight">30% faster speed, 2x more accuracy</span>.
 - Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations.
 - Scripted pipeline to convert stl CAD files of house walls to 2-dimensional goal depth maps and plan operations.
+</div>
 
-
-Skymul (Atlanta) - **Perception Intern**
+[Skymul](https://skymul.com/) | **Perception Intern** <span class="location">Atlanta</span>
 ------
 
-- Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (6 FPS) in a densely multilayered rebar network on quadraped robot. 
+<div class="experience-content">
+- Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (<span class="highlight">6 FPS</span>) in a densely multilayered rebar network on quadraped robot. 
+</div>
 
-UPenn | mLab - **Research Assistant**
+UPenn | mLab | **Research Assistant**
 ------
 
-- Acheived <b>1st</b> place in the <b>12th F1Tenth Autonomous Grand Prix</b> at the <b>CPS-IoT 2023 conference</b>.
+<div class="experience-content">
+- Achieved <span class="achievement">1st place</span> in the <span class="highlight">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight">CPS-IoT 2023 conference</span>.
 - Implemented a finite state machine to switch between overtaking, adaptive cruise control and pure pursuit modes on an F1Tenth car.
+</div>
+
+</div>
+
+<style>
+.experience-block {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.experience-content {
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.highlight {
+    color: #2962ff;
+    font-weight: 500;
+}
+
+.achievement {
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.location {
+    color: #666;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+h2 {
+    border-bottom: 2px solid #2962ff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+</style>
 
 
 Projects
