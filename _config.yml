@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rohit Bhikule"
+title                    : 
 title_separator          : "-"
 name                     : &name "Rohit Bhikule"
 description              : &description "Senior Robotics Software Engineer at Terran Robotics"
