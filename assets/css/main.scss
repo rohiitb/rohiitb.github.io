@@ -39,3 +39,42 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// Your styles here
+.experience-block {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.experience-content {
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.highlight {
+    color: #2962ff;
+    font-weight: 500;
+}
+
+.achievement {
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.location {
+    color: #666;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+h2 {
+    border-bottom: 2px solid #2962ff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
