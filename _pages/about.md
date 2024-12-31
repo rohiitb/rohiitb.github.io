@@ -19,10 +19,7 @@ Experience
 ======
 <div class="experience-block">
 
-<div class="hyperlink">
-🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> | <span class="highlight_role">Senior Robotics Software Engineer</span>  <span class="location">Bloomington, IN</span>
-------
-</div>
+<span class="highlight_role">Senior Robotics Software Engineer</span> | 🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> <span class="location">Bloomington, IN</span>
 
 <div class="experience-content">
 - Developed a custom <span class="highlight">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags and encoder data, and implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight">10 Hz pose output with 5 mm accuracy</span>. <br>
@@ -33,20 +30,14 @@ Experience
 </div>
 
 
-<div class="hyperlink">
-🔗 <a href="https://skymul.com/">Skymul</a> | <span class="highlight_role">Perception Intern</span>  <span class="location">Atlanta, GA</span>
-------
-</div>
+<span class="highlight_role">Perception Intern</span> | 🔗 <a href="https://skymul.com/">Skymul</a> <span class="location">Atlanta, GA</span>
 
 <div class="experience-content">
 - Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (<span class="highlight">6 FPS</span>) in a densely multilayered rebar network on quadraped robot. 
 </div>
 
 
-<div class="hyperlink">
-<a href="https://xlab.upenn.edu/">xLab</a> - UPenn | <span class="highlight_role">Research Assistant</span>  <span class="location">Philadelphia, PA</span>
-------
-</div>
+<span class="highlight_role">Research Assistant</span> | 🔗 <a href="https://xlab.upenn.edu/">xLab</a> - UPenn <span class="location">Philadelphia, PA</span>
 
 <div class="experience-content">
 - Achieved <span class="achievement">1st place</span> in the <span class="highlight">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight">CPS-IoT 2023 conference</span>.
@@ -77,7 +68,6 @@ Experience
 }
 
 .highlight_role {
-    background: #e3f2fd;
     color: #1565c0;
     font-weight: bold;
 }
