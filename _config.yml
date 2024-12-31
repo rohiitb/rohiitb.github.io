@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Divyanshu Sahu"
+title                    : "Rohit Bhikule"
 title_separator          : "-"
-name                     : &name "Divyanshu Sahu"
-description              : &description "Studying robotics at UPenn"
-url                      : https://divyanshurs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Rohit Bhikule"
+description              : &description "Senior Robotics Software Engineer at Terran Robotics"
+url                      : https://rohiitb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/divyanshurs/divyanshurs.github.io"
+repository               : "https://github.com/rohiitb/rohiitb.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,36 +80,31 @@ analytics:
 
 # Site Author
 author:
-  name             : "Divyanshu Sahu"
+  name             : "Rohit Bhikule"
   avatar           : "propic.jpg"
-  bio              : "MSE Robotics at The University of Pennsylvania"
-  location         : "Philadelphia | Pennsylvania"
+  bio              : "Senior Robotics Software Engineer at Terran Robotics"
+  location         : "Bloomington | Indiana"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :  "dsahu@seas.upenn.edu"
+  email            :  "bhikulerohit@gmail.com"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
   facebook         :
   foursquare       :
-  github           : "divyanshurs"
+  github           : "rohiitb"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  # orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
+  linkedin         : "rbhikule"
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "ReDivyanshu"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
