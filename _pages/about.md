@@ -60,10 +60,10 @@ Experience
     padding: 15px;
     border-radius: 8px;
     background: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05),
-                -2px 0 4px rgba(0,0,0,0.05),
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.02),
+                -2px 0 4px rgba(0,0,0,0.05), 
                 2px 0 4px rgba(0,0,0,0.05),
-                0 -2px 4px rgba(0,0,0,0.05);
+                0 2px 4px rgba(0,0,0,0.1);
 }
 
 .experience-content {
