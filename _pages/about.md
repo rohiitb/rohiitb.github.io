@@ -23,9 +23,9 @@ Experience
 </div>
 
 <div class="experience-content">
-- Developed a custom <span class="highlight">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags and encoder data, and implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight">10 Hz pose output with 5 mm accuracy</span>. <br>
+- Developed a custom <span class="highlight_important">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags and encoder data, and implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight_important">10 Hz pose output with 5 mm accuracy</span>. <br>
 - Designed and implemented adaptive algorithm to autonomously perform pick-and-place operations on earthern-clay blobs and hammer them into walls using pointcloud data, 
-  utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in <span class="highlight">30% faster speed, 2x more accuracy</span>. <br>
+  utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in <span class="highlight_important">30% faster speed, 2x more accuracy</span>. <br>
 - Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations. <br>
 - Scripted pipeline to convert stl CAD files of house walls to 2-dimensional goal depth maps and plan operations.
 </div>
@@ -36,7 +36,7 @@ Experience
 </div>
 
 <div class="experience-content">
-- Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (<span class="highlight">6 FPS</span>) in a densely multilayered rebar network on quadraped robot. 
+- Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (<span class="highlight_important">6 FPS</span>) in a densely multilayered rebar network on quadraped robot. 
 </div>
 
 <div class="hyperlink">
@@ -44,7 +44,7 @@ Experience
 </div>
 
 <div class="experience-content">
-- Achieved <span class="achievement">1st place</span> in the <span class="highlight">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight">CPS-IoT 2023 conference</span>.
+- Achieved <span class="highlight_important">1st place</span> in the <span class="highlight_important">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight_important">CPS-IoT 2023 conference</span>.
 - Implemented a finite state machine to switch between overtaking, adaptive cruise control and pure pursuit modes on an F1Tenth car.
 </div>
 </div>
@@ -71,9 +71,15 @@ Experience
     font-weight: bold;
 }
 
+.highlight_important {
+    color: #000000;
+    font-weight: bold;
+}
+
 .highlight_role {
     color: #1565c0;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 .hyperlink {
@@ -83,14 +89,6 @@ Experience
 .hyperlink a {
     color: #1565c0;
     text-decoration: none;
-}
-
-.achievement {
-    background: #e3f2fd;
-    color: #1565c0;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-weight: bold;
 }
 
 .location {
