@@ -41,7 +41,7 @@ Experience
 </div>
 
 <div class="hyperlink">
-<span class="highlight_role">Research Assistant</span> | 🔗 <a href="https://xlab.upenn.edu/">xLab</a> - UPenn <span class="location">Philadelphia, PA</span>
+<span class="highlight_role">Research Assistant</span> | 🔗 <a href="https://xlab.upenn.edu/">xLab</a> <span class="location">Philadelphia, PA</span>
 </div>
 
 <div class="experience-content">
@@ -56,10 +56,10 @@ Experience
     padding: 15px;
     border-radius: 8px;
     background: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1),
-                -2px 0 4px rgba(0,0,0,0.1),
-                2px 0 4px rgba(0,0,0,0.1),
-                0 -2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05),
+                -2px 0 4px rgba(0,0,0,0.05),
+                2px 0 4px rgba(0,0,0,0.05),
+                0 -2px 4px rgba(0,0,0,0.05);
 }
 
 .experience-content {
