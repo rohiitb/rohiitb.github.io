@@ -37,7 +37,9 @@ Experience
 </div>
 
 <div class="experience-content">
-- Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (<span class="highlight_important">6 FPS</span>) in a densely multilayered rebar network on quadraped robot. 
+<ul>
+  <li>Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (<span class="highlight_important">6 FPS</span>) in a densely multilayered rebar network on quadraped robot.</li>
+</ul>
 </div>
 
 <div class="hyperlink">
@@ -45,8 +47,10 @@ Experience
 </div>
 
 <div class="experience-content">
-- Achieved <span class="highlight_important">1st place</span> in the <span class="highlight_important">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight_important">CPS-IoT 2023 conference</span>.
-- Implemented a finite state machine to switch between overtaking, adaptive cruise control and pure pursuit modes on an F1Tenth car.
+<ul>
+  <li>Achieved <span class="highlight_important">1st place</span> in the <span class="highlight_important">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight_important">CPS-IoT 2023 conference</span>.</li>
+  <li>Implemented a finite state machine to switch between overtaking, adaptive cruise control and pure pursuit modes on an F1Tenth car.</li>
+</ul>
 </div>
 </div>
 
