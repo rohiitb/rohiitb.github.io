@@ -97,7 +97,6 @@ Experience
   .hyperlink {
       position: relative;
       margin-top: 40px;
-      margin-bottom: 20px;
   }
 
   .hyperlink a {
