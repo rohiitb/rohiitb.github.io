@@ -81,6 +81,8 @@ UPenn | mLab | **Research Assistant**  <span class="location">Philadelphia, PA</
 .hyperlink a {
     color: #1565c0;
     text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .achievement {
