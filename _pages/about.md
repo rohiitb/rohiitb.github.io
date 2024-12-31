@@ -20,7 +20,7 @@ Experience
 <div class="experience-block">
 
 <div class="hyperlink">
-[Terran Robotics](https://terranrobotics.ai/) | **Senior Robotics Software Engineer**  <span class="location">Bloomington, IN</span>
+🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> | **Senior Robotics Software Engineer**  <span class="location">Bloomington, IN</span>
 ------
 </div>
 
@@ -34,7 +34,7 @@ Experience
 
 
 <div class="hyperlink">
-[Skymul](https://skymul.com/) | **Perception Intern**  <span class="location">Atlanta, GA</span>
+🔗 <a href="https://skymul.com/">Skymul</a> | **Perception Intern**  <span class="location">Atlanta, GA</span>
 ------
 </div>
 
@@ -43,10 +43,8 @@ Experience
 </div>
 
 
-<div class="hyperlink">
 UPenn | mLab | **Research Assistant**  <span class="location">Philadelphia, PA</span>
 ------
-</div>
 
 <div class="experience-content">
 - Achieved <span class="achievement">1st place</span> in the <span class="highlight">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight">CPS-IoT 2023 conference</span>.
@@ -77,24 +75,13 @@ UPenn | mLab | **Research Assistant**  <span class="location">Philadelphia, PA</
 }
 
 .hyperlink {
+    position: relative;
+}
+
+.hyperlink a {
     color: #1565c0;
     text-decoration: none;
-    position: relative;
-    padding-left: 18px;
 }
-
-.hyperlink::before {
-    content: '🔗';
-    position: absolute;
-    left: 0;
-    font-size: 0.9em;
-}
-
-.highlight::before {
-    content: '🔗';
-    position: absolute;
-    left: 0;
-    font-size: 0.9em;
 
 .achievement {
     background: #e3f2fd;
