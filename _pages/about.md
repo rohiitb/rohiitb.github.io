@@ -15,10 +15,10 @@ My projects have exposed me to various topics related to motion-planning, percep
 In my leisure time, I like to go on hikes and play soccer. I am also a big motorsports racing fan.
 
 
+<div class="experience-block">
 Experience
 ======
 
-<div class="experience-block">
 <div markdown="1">
 
 [Terran Robotics](https://terranrobotics.ai/) | **Senior Robotics Software Engineer**
@@ -26,7 +26,7 @@ Experience
 </div>
 
 <div class="experience-content">
-- Developed a custom <span class="highlight">GTSAM-based SLAM solution</span> to localize cable-driven parallel robots using AprilTags and encoder data, and implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight">10 Hz pose output with 5 mm accuracy</span>. <br>
+- Developed a custom <span class="highlight">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags and encoder data, and implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight">10 Hz pose output with 5 mm accuracy</span>. <br>
 - Designed and implemented adaptive algorithm to autonomously perform pick-and-place operations on earthern-clay blobs and hammer them into walls using pointcloud data, 
   utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in <span class="highlight">30% faster speed, 2x more accuracy</span>. <br>
 - Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations. <br>
