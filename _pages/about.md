@@ -8,19 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-
+<div class="experience-block">
 Hello there! I am a Robotics Software engineer at Terran Robotics, Bloomington, Indiana. I graduated from University of Pennsylvania majoring in Robotics.
 I have had the opportunity to be a part of multiple projects affiliated to [GRASP](https://www.grasp.upenn.edu/) robotics lab at UPenn. 
 My projects have exposed me to various topics related to motion-planning, perception, computer vision and controls.
 In my leisure time, I like to go on hikes and play soccer. I am also a big motorsports racing fan.
+</div>
 
-
-<div class="experience-block">
 Experience
 ======
+<div class="experience-block">
 
 <div markdown="1">
-
 [Terran Robotics](https://terranrobotics.ai/) | **Senior Robotics Software Engineer**
 ------
 </div>
@@ -70,8 +69,17 @@ UPenn | mLab | **Research Assistant**
 }
 
 .highlight {
-    color: #2962ff;
+    color: inherit;
     font-weight: 500;
+    position: relative;
+    padding-left: 18px;
+}
+
+.highlight::before {
+    content: '🔗';
+    position: absolute;
+    left: 0;
+    font-size: 0.9em;
 }
 
 .achievement {
