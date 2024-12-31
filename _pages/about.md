@@ -26,15 +26,17 @@ Experience
 </div>
 
 <div class="experience-content">
-- Developed a custom <span class="highlight">GTSAM-based SLAM solution</span> to localize cable-driven parallel robots using AprilTags and encoder data, and implemented a parallel 
-  processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight">10 Hz pose output with 5 mm accuracy</span>.
+- Developed a custom <span class="highlight">GTSAM-based SLAM solution</span> to localize cable-driven parallel robots using AprilTags and encoder data, and implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight">10 Hz pose output with 5 mm accuracy</span>. <br>
 - Designed and implemented adaptive algorithm to autonomously perform pick-and-place operations on earthern-clay blobs and hammer them into walls using pointcloud data, 
-  utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in <span class="highlight">30% faster speed, 2x more accuracy</span>.
-- Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations.
+  utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in <span class="highlight">30% faster speed, 2x more accuracy</span>. <br  >
+- Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations. <br>
 - Scripted pipeline to convert stl CAD files of house walls to 2-dimensional goal depth maps and plan operations.
 </div>
 
 </div>
+
+<div class="experience-block">
+<div markdown="1">
 
 [Skymul](https://skymul.com/) | **Perception Intern** <span class="location">Atlanta</span>
 ------
@@ -42,6 +44,11 @@ Experience
 <div class="experience-content">
 - Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (<span class="highlight">6 FPS</span>) in a densely multilayered rebar network on quadraped robot. 
 </div>
+</div>
+
+
+<div class="experience-block">
+<div markdown="1">
 
 UPenn | mLab | **Research Assistant**
 ------
@@ -50,9 +57,10 @@ UPenn | mLab | **Research Assistant**
 - Achieved <span class="achievement">1st place</span> in the <span class="highlight">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight">CPS-IoT 2023 conference</span>.
 - Implemented a finite state machine to switch between overtaking, adaptive cruise control and pure pursuit modes on an F1Tenth car.
 </div>
+</div>
 
-<style>
-.experience-block {
+  <style>
+  .experience-block {
     margin: 20px 0;
     padding: 15px;
     border-radius: 8px;
