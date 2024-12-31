@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="experience-block">
 Hello there! I am a Robotics Software engineer at Terran Robotics, Bloomington, Indiana. I graduated from University of Pennsylvania majoring in Robotics.
-I have had the opportunity to be a part of multiple projects affiliated to [GRASP](https://www.grasp.upenn.edu/) robotics lab at UPenn. 
+I have had the opportunity to be a part of multiple projects affiliated to <a href="https://www.grasp.upenn.edu/">GRASP</a> robotics lab at UPenn. 
 My projects have exposed me to various topics related to motion-planning, perception, computer vision and controls.
 In my leisure time, I like to go on hikes and play soccer. I am also a big motorsports racing fan.
 </div>
@@ -20,7 +20,7 @@ Experience
 <div class="experience-block">
 
 <div class="hyperlink">
-🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> | **Senior Robotics Software Engineer**  <span class="location">Bloomington, IN</span>
+🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> | <span class="highlight_role">Senior Robotics Software Engineer</span>  <span class="location">Bloomington, IN</span>
 ------
 </div>
 
@@ -34,7 +34,7 @@ Experience
 
 
 <div class="hyperlink">
-🔗 <a href="https://skymul.com/">Skymul</a> | **Perception Intern**  <span class="location">Atlanta, GA</span>
+🔗 <a href="https://skymul.com/">Skymul</a> | <span class="highlight_role">Perception Intern</span>  <span class="location">Atlanta, GA</span>
 ------
 </div>
 
@@ -43,8 +43,10 @@ Experience
 </div>
 
 
-UPenn | mLab | **Research Assistant**  <span class="location">Philadelphia, PA</span>
+<div class="hyperlink">
+<a href="https://xlab.upenn.edu/">xLab</a> - UPenn | <span class="highlight_role">Research Assistant</span>  <span class="location">Philadelphia, PA</span>
 ------
+</div>
 
 <div class="experience-content">
 - Achieved <span class="achievement">1st place</span> in the <span class="highlight">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight">CPS-IoT 2023 conference</span>.
@@ -74,6 +76,12 @@ UPenn | mLab | **Research Assistant**  <span class="location">Philadelphia, PA</
     font-weight: bold;
 }
 
+.highlight_role {
+    background: #e3f2fd;
+    color: #1565c0;
+    font-weight: bold;
+}
+
 .hyperlink {
     position: relative;
 }
@@ -81,8 +89,6 @@ UPenn | mLab | **Research Assistant**  <span class="location">Philadelphia, PA</
 .hyperlink a {
     color: #1565c0;
     text-decoration: none;
-    font-size: 1.2em;
-    font-weight: 500;
 }
 
 .achievement {
