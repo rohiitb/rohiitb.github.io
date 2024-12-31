@@ -56,7 +56,8 @@ Experience
 
 <style>
 body {
-    background-color: #f5f5f5;
+  /* background-color: #f0e6ff; */
+  background-color: #faebfe;
 }
 
 .experience-block {
