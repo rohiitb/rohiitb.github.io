@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Rohit Bhikule"
+title: "Portfolio"
 excerpt: "Rohit Bhikule's Professional Portfolio - Software Engineer specializing in Robotics"
 author_profile: true
 ---
