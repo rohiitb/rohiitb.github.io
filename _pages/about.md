@@ -127,9 +127,9 @@ Projects
 
   <div class="experience-content">
     <ul>
-      <li>Implemented <span class="highlight_important">Mask-RCNN</span> object detection and instance segmentation pipeline from scratch. See <a href="https://github.com/rohiitb/MaskRCNN">GitHub</a> for more details.</li>
-      <li>Scripted <span class="highlight_important">YOLO-v1</span> object detection system from ground up. See <a href="https://github.com/rohiitb/YOLO">GitHub</a> for more details.</li>
-      <li>Implemented <span class="highlight_important">SOLO</span> instance segmentation model. See <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a> for more details.</li>
+      <li>Implemented <span class="highlight_important">Mask-RCNN</span> object detection and instance segmentation pipeline from scratch. 🔗<a href="https://github.com/rohiitb/MaskRCNN">GitHub</a></li>
+      <li>Scripted <span class="highlight_important">YOLO-v1</span> object detection system from ground up. Achieved mAP of 0.43 on COCO dataset. 🔗<a href="https://github.com/rohiitb/YOLO">GitHub</a></li>
+      <li>Implemented <span class="highlight_important">SOLO</span> instance segmentation model. 🔗<a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a></li>
     </ul>
     <br>
     <img src="images/yolo.JPG" style="height: 300px; width: 300px; margin: 10px;"> 
