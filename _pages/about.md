@@ -132,8 +132,8 @@ Projects
       <li>Implemented <span class="highlight_important">SOLO</span> instance segmentation model. See <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a> for more details.</li>
     </ul>
     <br>
-    <img src="images/yolo.JPG" style="height: 300px; width: auto; margin: 5px;"> 
-    <img src="images/ins2.png" style="height: 300px; width: auto; margin: 5px;">
+    <img src="images/yolo.JPG" style="height: 300px; width: 300px;"> 
+    <img src="images/ins2.png" style="height: 300px; width: 300px;">
   </div>
 
 
