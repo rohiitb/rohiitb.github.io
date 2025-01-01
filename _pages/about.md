@@ -118,7 +118,7 @@ Experience
   .timeframe {
       color: #666;
       font-style: italic;
-      font-size: 0.9em;
+      font-size: 0.6em;
       margin-left: 10px;
   }
 </style>
