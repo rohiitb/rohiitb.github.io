@@ -15,6 +15,7 @@ url                      : https://rohiitb.github.io # the base hostname & proto
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/rohiitb/rohiitb.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+favicon                  : "/images/icon.png" # path to favicon file, e.g. "/images/favicon.ico"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
