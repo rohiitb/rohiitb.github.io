@@ -4,9 +4,9 @@ title: "Portfolio"
 excerpt: "Rohit Bhikule's Professional Portfolio - Software Engineer specializing in Robotics"
 author_profile: true
 ---
-<div class="experience-block">
 About Me
-<br>
+======
+<div class="experience-block">
 Hello there! I am a Robotics Software engineer at Terran Robotics. I graduated from University of Pennsylvania majoring in Robotics.
 I have had the opportunity to be a part of multiple projects affiliated to <a href="https://www.grasp.upenn.edu/">GRASP</a> robotics lab at UPenn. 
 My projects have exposed me to various topics related to motion-planning, perception, computer vision and controls.
