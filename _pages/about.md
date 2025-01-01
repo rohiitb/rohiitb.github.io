@@ -127,12 +127,13 @@ Projects
 
   <div class="experience-content">
     <ul>
-      <li>Implemented Mask-RCNN object detection and instance segmentation pipeline from scratch. See <a href="https://github.com/rohiitb/MaskRCNN">GitHub</a> for more details.</li>
-      <li>Scripted YOLO-v1 object detection system from ground up. See <a href="https://github.com/rohiitb/YOLO">GitHub</a> for more details.</li>
-      <li>Implemented SOLO instance segmentation model. See <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a> for more details.</li>
+      <li>Implemented <span class="highlight_important">Mask-RCNN</span> object detection and instance segmentation pipeline from scratch. See <a href="https://github.com/rohiitb/MaskRCNN">GitHub</a> for more details.</li>
+      <li>Scripted <span class="highlight_important">YOLO-v1</span> object detection system from ground up. See <a href="https://github.com/rohiitb/YOLO">GitHub</a> for more details.</li>
+      <li>Implemented <span class="highlight_important">SOLO</span> instance segmentation model. See <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a> for more details.</li>
     </ul>
     <br><br>
-    <img src="images/yolo.JPG?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
+    <img src="images/yolo.JPG?raw=true" style="width: 300px; height: auto; margin: 5px;"> 
+    <img src="images/ins2.png?raw=true" style="width: 300px; height: auto; margin: 5px;">
   </div>
 
 
