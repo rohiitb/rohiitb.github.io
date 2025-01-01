@@ -36,7 +36,8 @@ Experience
 
   <div class="experience-content">
     <ul>
-      <li>Built a novel algorithm to detect rebar intersections and pose from noisy pointclouds real-time (<span class="highlight_important">6 FPS</span>) in a densely multilayered rebar network on quadraped robot.</li>
+      <li>Built a novel algorithm to <span class=="highlight_important">detect rebar intersections</span> and pose from noisy pointclouds real-time (6 FPS) in a densely multilayered rebar network on quadraped robot.</li>
+      <li>Developed end-to-end pipeline to get the pointcloud of construction sites using photogrammetry.</li>
     </ul>
   </div>
 
@@ -51,9 +52,14 @@ Experience
       <li>Implemented a finite state machine to switch between overtaking, adaptive cruise control and pure pursuit modes on an F1Tenth car.</li>
     </ul>
       <div style="text-align: center;">
-        <img src="images/team.jpeg" style="height: 250px; width: 250px; margin: 10px 30px;"> 
-        <img src="images/car.jpeg" style="height: 250px; width: 250px; margin: 10px 30px;">
-    </div>
+        <div style="margin-bottom: 20px;">
+          <img src="images/team.jpeg" style="height: 250px; width: 300px; margin: 10px 30px;"> 
+          <img src="images/car.jpeg" style="height: 250px; width: 300px; margin: 10px 30px;">
+        </div>
+        <div>
+          <iframe width="300" height="150" src="https://youtu.be/mOYDDL2_ZcI?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
   </div>
 </div>
 
