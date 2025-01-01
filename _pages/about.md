@@ -121,16 +121,24 @@ Projects
 ======
 <div class="experience-block">
 
-Object detection and instance segmentation
-------
-Implemented <a href="https://github.com/rohiitb/MaskRCNN">Mask-RCNN</a>, <a href="https://github.com/rohiitb/YOLO">YOLO</a>, and <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">SOLO</a> object detection and instance segmentation pipelines from scratch. Implemented post-processing techniques and evaluated performance using the mAP metric. 
+  <div class="hyperlink">
+    Object detection and instance segmentation
+  </div>
 
-<img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
+  <div class="experience-content">
+    Implemented <a href="https://github.com/rohiitb/MaskRCNN">Mask-RCNN</a>, <a href="https://github.com/rohiitb/YOLO">YOLO</a>, and <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">SOLO</a> object detection and instance segmentation pipelines from scratch. Implemented post-processing techniques and evaluated performance using the mAP metric. 
+  </div>
 
-Path planning approaches for a planar quadrotor
-------
+  <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
+
+
+  <div class="hyperlink">
+    Path planning approaches for a planar quadrotor
+  </div>
+
+<div class="experience-content">
 This project was a semester long implementation of several methods implemented for planar quadrotor control as a part of the MEAM 517 (Control and Optimization with learning in Robotics). These methods include MPC, iLQR, LQR to follow a nominal trajectory, and minimum snap trajctory planning in differtially flat space of the quadrotor. The results for the same are as below. [GitHub](https://github.com/divyanshurs/path_planning_planar_quadrotor)
-
+</div>
 <img src="images/MPC.gif?raw=true" width="300" height="300"><img src="images/ilqr.png?raw=true" width="300" height="300"> <img src="images/traj_track.gif?raw=true" width="300" height="300"><img src="images/min_snap1.png?raw=true" width="300" height="300">
 
 Two-View and Multi-View Stereo for 3D reconstruction 
