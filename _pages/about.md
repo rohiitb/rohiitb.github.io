@@ -149,11 +149,15 @@ Projects
     <img src="images/MPC.gif?raw=true" width="300" height="300"><img src="images/ilqr.png?raw=true" width="300" height="300"> <img src="images/traj_track.gif?raw=true" width="300" height="300"><img src="images/min_snap1.png?raw=true" width="300" height="300">
   </div>
 
-Two-View and Multi-View Stereo for 3D reconstruction 
-------
-The aim of this project was to use two view and multiple view images to form a 3D reconstruction of the object of interest. For multi-view stereo the plane sweep algorithm was implemented. [GitHub](https://github.com/divyanshurs/two-view_and_multi-view_stereo)
+  <div class="hyperlink">
+    <span class="highlight_role">Two-View and Multi-View Stereo for 3D Reconstruction</span>
+  </div>
 
-<img src="images/t1.png?raw=true" width="300" height="300"><img src="images/result.gif?raw=true" width="300" height="300">
+  <div class="experience-content">
+    Implemented 3D reconstruction using two-view and multi-view stereo with plane sweep algorithm.
+    <img src="images/recon_gif.gif?raw=true" width="300" height="300">
+  </div>
+
 
 SLAM using Particle Filter for humanoid Robot
 ------
