@@ -85,9 +85,8 @@ author:
   bio              : "Senior Robotics Software Engineer at Terran Robotics"
   location         : 
   employer         :
-  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :  "bhikulerohit@gmail.com"
+  resume           : "files/Resume.pdf"
+  email            : "bhikulerohit@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
