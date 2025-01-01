@@ -157,7 +157,10 @@ Projects
       <li>Implemented stereo MSCKF visual-inertial odometry for robust high-speed robot pose estimation. 🔗<a href="https://github.com/rohiitb/msckf_vio_python">GitHub</a></li>
       <li>Implemented Unscented Kalman filter for 3D orientation tracking using IMU sensor data, with model parameters learned from Vicon motion capture ground truth.</li>
     </ul>
-    <img src="images/crazyflie.gif" style="height: 300px; width: 300px; margin: 10px;"> <img src="images/msckf_gif.gif" style="height: 300px; width: 300px; margin: 10px;">
+    <div style="text-align: center;">
+        <img src="images/crazyflie.gif" style="height: 250px; width: 250px; margin: 10px 30px;"> 
+        <img src="images/msckf_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+    </div>
   </div>
 
   <div class="hyperlink">
@@ -168,7 +171,9 @@ Projects
     <ul>
       <li>Implemented 3D reconstruction using two-view and multi-view stereo with plane sweep algorithm. 🔗<a href="https://github.com/rohiitb/two-view_and_multi-view_stereo">GitHub</a></li>
     </ul>
-    <img src="images/recon_gif.gif" style="height: 300px; width: 300px; margin: 10px;">
+    <div style="text-align: center;">
+        <img src="images/recon_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+    </div>
   </div>
 
 
