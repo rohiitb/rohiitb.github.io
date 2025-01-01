@@ -72,7 +72,7 @@ Experience
   .experience-content {
       margin-left: 10px;
       padding: 5px 0;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
   }
 
   .highlight {
