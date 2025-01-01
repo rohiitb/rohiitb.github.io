@@ -163,6 +163,8 @@ Projects
     </div>
   </div>
 
+  <br>
+
   <div class="hyperlink">
     <span class="highlight_role">Two-View and Multi-View Stereo for 3D Reconstruction</span>
   </div>
@@ -175,6 +177,8 @@ Projects
         <img src="images/recon_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
     </div>
   </div>
+
+  <br>
 
 
 SLAM using Particle Filter for humanoid Robot
