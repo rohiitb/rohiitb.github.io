@@ -18,7 +18,7 @@ Experience
 <div class="experience-block">
 
   <div class="hyperlink">
-    <span class="highlight_role">Senior Robotics Software Engineer</span> | 🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> <span class="location">Bloomington, IN</span>
+    <span class="highlight_role">Senior Robotics Software Engineer</span> | 🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> <span class="location">Bloomington, IN</span> <span class="timeframe">Jan 2023 - Present</span>
   </div>
 
   <div class="experience-content">
@@ -31,7 +31,7 @@ Experience
   </div>
 
   <div class="hyperlink">
-    <span class="highlight_role">Perception Intern</span> | 🔗 <a href="https://skymul.com/">Skymul</a> <span class="location">Atlanta, GA</span>
+    <span class="highlight_role">Perception Intern</span> | 🔗 <a href="https://skymul.com/">Skymul</a> <span class="location">Atlanta, GA</span> <span class="timeframe">May 2022 - Aug 2022</span>
   </div>
 
   <div class="experience-content">
@@ -42,7 +42,7 @@ Experience
 
 
   <div class="hyperlink">
-    <span class="highlight_role">Research Assistant</span> | 🔗 <a href="https://xlab.upenn.edu/">xLab</a> <span class="location">Philadelphia, PA</span>
+    <span class="highlight_role">Research Assistant</span> | 🔗 <a href="https://xlab.upenn.edu/">xLab</a> <span class="location">Philadelphia, PA</span> <span class="timeframe">Sep 2021 - Dec 2022</span>
   </div>
 
   <div class="experience-content">
@@ -114,6 +114,13 @@ Experience
       padding-bottom: 5px;
       margin-bottom: 15px;
   }
+
+  .timeframe {
+      color: #666;
+      font-style: italic;
+      font-size: 0.9em;
+      margin-left: 10px;
+  }
 </style>
 
 
@@ -148,7 +155,7 @@ Projects
       <li>Implemented stereo MSCKF visual-inertial odometry for robust high-speed robot pose estimation. 🔗<a href="https://github.com/rohiitb/msckf_vio_python">GitHub</a></li>
       <li>Implemented Unscented Kalman filter for 3D orientation tracking using IMU sensor data, with model parameters learned from Vicon motion capture ground truth.</li>
     </ul>
-    <img src="images/crazyflie.gif" width="300px" height="300px" style="margin: 10px;"><img src="images/msckf_gif.gif" width="300px" height="300px" style="margin: 10px;"> 
+    <img src="images/crazyflie.gif" width="300px" height="300px" style="margin: 10px;"> <img src="images/msckf_gif.gif" width="300px" height="300px" style="margin: 10px;"> 
   </div>
 
   <div class="hyperlink">
