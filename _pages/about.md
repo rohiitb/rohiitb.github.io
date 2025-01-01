@@ -119,12 +119,13 @@ Experience
 
 Projects
 ======
+<div class="experience-block">
 
 Object detection and instance segmentation
 ------
-Implemented YOLO, SOLO, and Faster-RCNN pipelines for object detection and instance segmentation tasks from scratch. Performed post-processing and analysed performence using mAP metric. [GitHub](https://github.com/divyanshurs/object_detection_and_segmentation)
+Implemented <a href="https://github.com/rohiitb/MaskRCNN">Mask-RCNN</a>, <a href="https://github.com/rohiitb/YOLO">YOLO</a>, and <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">SOLO</a> object detection and instance segmentation pipelines from scratch. Implemented post-processing techniques and evaluated performance using the mAP metric. 
 
-<img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
+<img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
 
 Path planning approaches for a planar quadrotor
 ------
@@ -149,3 +150,5 @@ Autonomous Pick and Place Challenge
 The aim of this project was to use the library features developed for the Franka Panda Arm during the semester to develop a strategy for picking up static and dynamic blocks and placing them on the reward table. The aim of the strategy was to maximize the score and minimize the time. The Github repository for the entire project can be found [here](https://github.com/divyanshurs/Autonomous-Pick-and-Place-Challenge).
 
 <img src="images/ppr.gif?raw=true" width="300" height="300"> <img src="images/pps.gif?raw=true" width="300" height="300">
+
+</div>
