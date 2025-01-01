@@ -135,6 +135,8 @@ Projects
     <img src="images/ins2.png" style="height: 300px; width: 300px; margin: 10px;">
   </div>
 
+  <br><br><br>
+
 
   <div class="hyperlink">
     <span class="highlight_role">Quadrotor Navigation and Control</span>
