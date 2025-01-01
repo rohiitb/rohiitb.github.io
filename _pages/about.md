@@ -59,8 +59,8 @@ Experience
   }
 
   .experience-block {
-      margin: 20px 0;
-      padding: 15px;
+      margin: 10px 0;
+      padding: 10px;
       border-radius: 12px;
       background: #ffffff;
       box-shadow: 0 -2px 4px rgba(0,0,0,0.02),
@@ -72,7 +72,7 @@ Experience
   .experience-content {
       margin-left: 10px;
       padding: 5px 0;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
   }
 
   .highlight {
