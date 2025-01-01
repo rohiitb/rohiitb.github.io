@@ -53,8 +53,8 @@ Experience
     </ul>
       <div style="text-align: center;">
         <div style="margin-bottom: 20px;">
-          <img src="images/team.jpeg" style="height: 300px; width: 250px; margin: 10px 30px;"> 
-          <img src="images/car.jpeg" style="height: 300px; width: 400px; margin: 10px 30px;">
+          <img src="images/team.jpeg" style="height: 250px; width: 200px; margin: 10px 30px;"> 
+          <img src="images/car.jpeg" style="height: 250px; width: 300px; margin: 10px 30px;">
         </div>
         <div>
           <iframe width="600" height="400" src="https://www.youtube.com/embed/mOYDDL2_ZcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
