@@ -211,7 +211,7 @@ Projects
 
   <div class="experience-content">
     <ul>
-      <li>Developed a library for controlling Franka Panda Arm to efficiently pick static and dynamic blocks and place them on table. Project code available on 🔗<a href="https://github.com/rohiitb/meam520_labs">GitHub</a></li>
+      <li>Developed a library for controlling Franka Panda Arm to efficiently pick static and dynamic blocks using apriltags and place them on table. Project code available on 🔗<a href="https://github.com/rohiitb/meam520_labs">GitHub</a></li>
     </ul>
     <div style="text-align: center;">
         <img src="images/ppr.gif" style="height: 250px; width: 250px; margin: 10px 30px;"> 
