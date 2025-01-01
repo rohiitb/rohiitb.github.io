@@ -195,10 +195,20 @@ Projects
 
   <br>
 
-Autonomous Pick and Place Challenge
-------
-The aim of this project was to use the library features developed for the Franka Panda Arm during the semester to develop a strategy for picking up static and dynamic blocks and placing them on the reward table. The aim of the strategy was to maximize the score and minimize the time. The Github repository for the entire project can be found [here](https://github.com/divyanshurs/Autonomous-Pick-and-Place-Challenge).
+  <div class="hyperlink">
+    <span class="highlight_role">Autonomous Pick and Place Challenge</span>
+  </div>
 
-<img src="images/ppr.gif?raw=true" width="300" height="300"> <img src="images/pps.gif?raw=true" width="300" height="300">
+  <div class="experience-content">
+    <ul>
+      <li>Developed a strategy for Franka Panda Arm to efficiently pick static and dynamic blocks and place them on a reward table, optimizing for score and time. Project code available on 🔗<a href="https://github.com/rohiitb/meam520_labs">GitHub</a></li>
+    </ul>
+    <div style="text-align: center;">
+        <img src="images/ppr.gif" style="height: 250px; width: 250px; margin: 10px 30px;"> 
+        <img src="images/pps.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+    </div>
+  </div>
+  
+  <br>
 
 </div>
