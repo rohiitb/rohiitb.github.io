@@ -18,7 +18,7 @@ Experience
 <div class="experience-block">
 
   <div class="hyperlink">
-    <span class="highlight_role">Senior Robotics Software Engineer</span> | 🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> <span class="location">Bloomington, IN</span> <br> <span class="timeframe">Jan 2023 - Present</span>
+    <span class="highlight_role">Senior Robotics Software Engineer</span> | 🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> <span class="location">Bloomington, IN</span> <br> <span class="timeframe">June 2023 - Present</span>
   </div>
 
   <div class="experience-content">
@@ -31,7 +31,7 @@ Experience
   </div>
 
   <div class="hyperlink">
-    <span class="highlight_role">Perception Intern</span> | 🔗 <a href="https://skymul.com/">Skymul</a> <span class="location">Atlanta, GA</span> <span class="timeframe">May 2022 - Aug 2022</span>
+    <span class="highlight_role">Perception Intern</span> | 🔗 <a href="https://skymul.com/">Skymul</a> <span class="location">Atlanta, GA</span> <br> <span class="timeframe">May 2022 - Aug 2022</span>
   </div>
 
   <div class="experience-content">
@@ -42,7 +42,7 @@ Experience
 
 
   <div class="hyperlink">
-    <span class="highlight_role">Research Assistant</span> | 🔗 <a href="https://xlab.upenn.edu/">xLab</a> <span class="location">Philadelphia, PA</span> <span class="timeframe">Sep 2021 - Dec 2022</span>
+    <span class="highlight_role">Research Assistant</span> | 🔗 <a href="https://xlab.upenn.edu/">xLab</a> <span class="location">Philadelphia, PA</span> <br> <span class="timeframe">Jan 2023 - May 2023</span>
   </div>
 
   <div class="experience-content">
