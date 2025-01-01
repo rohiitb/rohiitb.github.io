@@ -122,13 +122,17 @@ Projects
 <div class="experience-block">
 
   <div class="hyperlink">
-    <span class="highlight_role">Object detection and instance segmentation</span>
+    <span class="highlight_role">Object Detection and Instance Segmentation</span>
   </div>
 
   <div class="experience-content">
-    Implemented <a href="https://github.com/rohiitb/MaskRCNN">Mask-RCNN</a>, <a href="https://github.com/rohiitb/YOLO">YOLO</a>, and <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">SOLO</a> object detection and instance segmentation pipelines from scratch. Implemented post-processing techniques and evaluated performance using the mAP metric. 
+    <ul>
+      <li>Implemented Mask-RCNN object detection and instance segmentation pipeline from scratch. See <a href="https://github.com/rohiitb/MaskRCNN">GitHub</a> for more details.</li>
+      <li>Scripted YOLO-v1 object detection system from ground up. See <a href="https://github.com/rohiitb/YOLO">GitHub</a> for more details.</li>
+      <li>Implemented SOLO instance segmentation model. See <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a> for more details.</li>
+    </ul>
     <br><br>
-    <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
+    <img src="images/yolo.jpg" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
   </div>
 
 
