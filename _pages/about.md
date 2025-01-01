@@ -131,9 +131,9 @@ Projects
       <li>Scripted <span class="highlight_important">YOLO-v1</span> object detection system from ground up. See <a href="https://github.com/rohiitb/YOLO">GitHub</a> for more details.</li>
       <li>Implemented <span class="highlight_important">SOLO</span> instance segmentation model. See <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a> for more details.</li>
     </ul>
-    <br><br>
-    <img src="images/yolo.JPG" style="width: 300px; height: auto; margin: 5px;"> 
-    <img src="images/ins2.png" style="width: 300px; height: auto; margin: 5px;">
+    <br>
+    <img src="images/yolo.JPG" style="height: 300px; width: auto; margin: 5px;"> 
+    <img src="images/ins2.png" style="height: 300px; width: auto; margin: 5px;">
   </div>
 
 
