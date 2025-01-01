@@ -18,7 +18,7 @@ Experience
 <div class="experience-block">
 
   <div class="hyperlink">
-    <span class="highlight_role">Senior Robotics Software Engineer</span> | 🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> <span class="location">Bloomington, IN</span> <span class="timeframe">Jan 2023 - Present</span>
+    <span class="highlight_role">Senior Robotics Software Engineer</span> | 🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> <span class="location">Bloomington, IN</span> <br> <span class="timeframe">Jan 2023 - Present</span>
   </div>
 
   <div class="experience-content">
@@ -91,7 +91,7 @@ Experience
   .highlight_role {
       color: #1565c0;
       font-weight: bold;
-      font-size: 1.2em;
+      font-size: 1.1em;
   }
 
   .hyperlink {
@@ -118,7 +118,7 @@ Experience
   .timeframe {
       color: #666;
       font-style: italic;
-      font-size: 0.6em;
+      font-size: 0.8em;
       margin-left: 10px;
   }
 </style>
