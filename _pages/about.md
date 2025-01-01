@@ -122,18 +122,18 @@ Projects
 <div class="experience-block">
 
   <div class="hyperlink">
-    Object detection and instance segmentation
+    <span class="highlight_role">Object detection and instance segmentation</span>
   </div>
 
   <div class="experience-content">
     Implemented <a href="https://github.com/rohiitb/MaskRCNN">Mask-RCNN</a>, <a href="https://github.com/rohiitb/YOLO">YOLO</a>, and <a href="https://github.com/rohiitb/SOLO_Instance_segmentation">SOLO</a> object detection and instance segmentation pipelines from scratch. Implemented post-processing techniques and evaluated performance using the mAP metric. 
-  </div>
 
-  <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
+    <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
+  </div>
 
 
   <div class="hyperlink">
-    Path planning approaches for a planar quadrotor
+    <span class="highlight_role">Path planning approaches for a planar quadrotor</span>
   </div>
 
 <div class="experience-content">
