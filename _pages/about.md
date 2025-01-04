@@ -156,6 +156,25 @@ Projects
 
   <br>
 
+  <div class="hyperlink">
+    <span class="highlight_role">3D Reconstruction</span>
+  </div>
+
+  <div class="experience-content">
+    <ul>
+      <li>Deployed a <span class="highlight_important">NeLF</span> model on an M1 chip using LensStudio and ONNX after applying knowledge distillation and model pruning, reducing the model size to 9MB (down from 125MB in MobileNeRF) and improving framerate by 10 FPS. 🔗<a href="https://github.com/rohiitb/mobileNeLF">GitHub</a></li>
+      <li>Implemented <span class="highlight_important">tinyNeRF</span> pipeline in Pytorch to generate novel views of scene and pointcloud. 🔗<a href="https://github.com/rohiitb/NeRF">GitHub</a></li>
+      <li>Implemented 3D reconstruction using two-view and multi-view stereo with plane sweep algorithm. 🔗<a href="https://github.com/rohiitb/two-view_and_multi-view_stereo">GitHub</a></li>
+    </ul>
+    <div style="text-align: center;">
+        <img src="images/nelf.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+        <img src="images/nerf_render.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+        <img src="images/recon_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+    </div>
+  </div>
+
+  <br>
+
 
   <div class="hyperlink">
     <span class="highlight_role">Quadrotor Navigation and Control</span>
@@ -170,21 +189,6 @@ Projects
     <div style="text-align: center;">
         <img src="images/crazyflie.gif" style="height: 250px; width: 250px; margin: 10px 30px;"> 
         <img src="images/msckf_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
-    </div>
-  </div>
-
-  <br>
-
-  <div class="hyperlink">
-    <span class="highlight_role">Two-View and Multi-View Stereo for 3D Reconstruction</span>
-  </div>
-
-  <div class="experience-content">
-    <ul>
-      <li>Implemented 3D reconstruction using two-view and multi-view stereo with plane sweep algorithm. 🔗<a href="https://github.com/rohiitb/two-view_and_multi-view_stereo">GitHub</a></li>
-    </ul>
-    <div style="text-align: center;">
-        <img src="images/recon_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
     </div>
   </div>
 
