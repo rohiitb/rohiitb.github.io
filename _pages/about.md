@@ -149,8 +149,12 @@ Projects
       <li>Implemented <span class="highlight_important">SOLO</span> instance segmentation model. 🔗<a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a></li>
     </ul>
     <div style="text-align: center;">
-        <img src="images/yolo.JPG" style="height: 250px; width: 250px; margin: 10px 30px;"> 
-        <img src="images/ins2.png" style="height: 250px; width: 250px; margin: 10px 30px;">
+        <a href="https://github.com/rohiitb/YOLO">
+          <img src="images/yolo.JPG" style="height: 250px; width: 250px; margin: 10px 30px;"> 
+        </a>
+        <a href="https://github.com/rohiitb/MaskRCNN">
+          <img src="images/ins2.png" style="height: 250px; width: 250px; margin: 10px 30px;">
+        </a>
     </div>
   </div>
 
@@ -164,12 +168,18 @@ Projects
     <ul>
       <li>Deployed a <span class="highlight_important">NeLF</span> model on an M1 chip using LensStudio and ONNX after applying knowledge distillation and model pruning, reducing the model size to 9MB (down from 125MB in MobileNeRF) and improving framerate by 10 FPS. 🔗<a href="https://github.com/rohiitb/mobileNeLF">GitHub</a></li>
       <li>Implemented <span class="highlight_important">tinyNeRF</span> pipeline in Pytorch to generate novel views of scene and pointcloud. 🔗<a href="https://github.com/rohiitb/NeRF">GitHub</a></li>
-      <li>Implemented 3D reconstruction using two-view and multi-view stereo with plane sweep algorithm. 🔗<a href="https://github.com/rohiitb/two-view_and_multi-view_stereo">GitHub</a></li>
+      <li>Implemented 3D reconstruction using <span class="highlight_important">two-view and multi-view stereo</span> with plane sweep algorithm. 🔗<a href="https://github.com/rohiitb/two-view_and_multi-view_stereo">GitHub</a></li>
     </ul>
     <div style="text-align: center;">
-        <img src="images/nelf.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
-        <img src="images/nerf_render.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
-        <img src="images/recon_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+        <a href="https://github.com/rohiitb/mobileNeLF">
+          <img src="images/nelf.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+        </a>
+        <a href="https://github.com/rohiitb/NeRF">
+          <img src="images/nerf_render.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+        </a>
+        <a href="https://github.com/rohiitb/two-view_and_multi-view_stereo">
+          <img src="images/recon_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+        </a>
     </div>
   </div>
 
@@ -184,7 +194,7 @@ Projects
     <ul>
       <li>Implemented geometric non-linear controller for collision-free quadrotor navigation along optimal trajectories generated using A* path planning and trajectory smoothing.</li>
       <li>Implemented stereo MSCKF visual-inertial odometry for robust high-speed robot pose estimation. 🔗<a href="https://github.com/rohiitb/msckf_vio_python">GitHub</a></li>
-      <li>Implemented Unscented Kalman filter for 3D orientation tracking using IMU sensor data, with model parameters learned from Vicon motion capture ground truth.</li>
+      <li>Implemented Unscented Kalman filter for 3D orientation tracking using IMU sensor data, with model parameters learned from Vicon motion capture ground truth. 🔗<a href="https://github.com/rohiitb/Orientation_tracking_using_UKF">GitHub</a></li>
     </ul>
     <div style="text-align: center;">
         <img src="images/crazyflie.gif" style="height: 250px; width: 250px; margin: 10px 30px;"> 
@@ -216,6 +226,7 @@ Projects
   <div class="experience-content">
     <ul>
       <li>Developed a library for controlling Franka Panda Arm to efficiently pick static and dynamic blocks using apriltags and place them on table. Project code available on 🔗<a href="https://github.com/rohiitb/meam520_labs">GitHub</a></li>
+      <li></li>
     </ul>
     <div style="text-align: center;">
         <img src="images/ppr.gif" style="height: 250px; width: 250px; margin: 10px 30px;"> 
