@@ -16,6 +16,22 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 </div>
 
 <div class="experience-block">
+  <strong style="font-size: 24px;">Education</strong>
+  <div class="experience-block">
+    <div class="hyperlink">
+      <span class="highlight_role">University of Pennsylvania</span> <span class="location">Philadelphia, PA</span>
+      <br><span class="timeframe">Aug 2021 - May 2023</span>
+      <ul>
+        <li>Master of Science in Engineering (MSE) in Robotics</li>
+        <li>GPA: 3.76/4.0</li>
+        <li>Relevant Coursework: Advanced Robotics, Computer Vision, Machine Learning, Deep Learning</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="experience-block">
 <strong style="font-size: 24px;">Experience</strong>
 <div class="experience-block">
 
@@ -174,7 +190,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
   <div class="experience-content">
     <ul>
       <li><span class="highlight_important">Llama2</span> : Scripted Llama2.7B in pytorch from scratch implementing KV cache, rotary positional encoding. Used pretrained weights for inference validation. 🔗<a href="https://github.com/rohiitb/llama2-pytorch">GitHub</a></li>
-      <li>Vanilla-transformer : Implemented <span class="highlight_important">Attention is all you need</span> from scratch and utilized Distributed Parallel Data training to train the model on multiple GPUs on AWS instance for a language translation task. 🔗<a href="https://github.com/rohiitb/pytorch-transformer">GitHub</a></li>
+      <li><span class="highlight_important">Vanilla-transformer</span> : Implemented <span class="highlight_important">Attention is all you need</span> from scratch and utilized Distributed Parallel Data training to train the model on multiple GPUs on AWS instance for a language translation task. 🔗<a href="https://github.com/rohiitb/pytorch-transformer">GitHub</a></li>
     </ul>
   </div>
 
@@ -227,7 +243,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 
   <div class="experience-content">
     <ul>
-      <li>Implemented geometric non-linear controller for collision-free quadrotor navigation along optimal trajectories generated using A* path planning and trajectory smoothing. 🔗<a href="https://github.com/rohiitb/Quadrotor_planning_and_control">GitHub</a></li>
+      <li>Implemented <span class="highlight_important">geometric non-linear controller</span> for collision-free quadrotor navigation along optimal trajectories generated using A* path planning and trajectory smoothing. 🔗<a href="https://github.com/rohiitb/Quadrotor_planning_and_control">GitHub</a></li>
       <li>Implemented <span class="highlight_important">stereo MSCKF visual-inertial odometry</span> for robust high-speed robot pose estimation. 🔗<a href="https://github.com/rohiitb/msckf_vio_python">GitHub</a></li>
       <li>Implemented <span class="highlight_important">Unscented Kalman filter</span> for 3D orientation tracking using IMU sensor data, with model parameters learned from Vicon motion capture ground truth. 🔗<a href="https://github.com/rohiitb/Orientation_tracking_using_UKF">GitHub</a></li>
     </ul>
@@ -249,7 +265,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 
   <div class="experience-content">
     <ul>
-      <li>Implemented particle filter SLAM for a THOR-OP humanoid robot using IMU and LIDAR data. The system performs real-time obstacle mapping and robot localization through scan matching and map updates. 🔗<a href="https://github.com/rohiitb/MonteCarlo_localization_SLAM">GitHub</a></li>
+      <li>Implemented <span class="highlight_important">particle filter SLAM</span> for a THOR-OP humanoid robot using IMU and LIDAR data. The system performs real-time obstacle mapping and robot localization through scan matching and map updates. 🔗<a href="https://github.com/rohiitb/MonteCarlo_localization_SLAM">GitHub</a></li>
     </ul>
     <div style="text-align: center;">
         <img src="images/map1.PNG" style="height: 250px; width: 250px; margin: 10px 30px;">
