@@ -15,8 +15,8 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 </div>
 </div>
 
-Experience
-======
+<div class="experience-block">
+<strong>Experience</strong>
 <div class="experience-block">
 
   <div class="hyperlink">
@@ -63,6 +63,7 @@ Experience
         </div>
       </div>
   </div>
+</div>
 </div>
 
 <style>
@@ -136,8 +137,8 @@ Experience
 </style>
 
 
-Projects
-======
+<div class="experience-block">
+<strong>Projects</strong>
 <div class="experience-block">
 
   <div class="hyperlink">
@@ -238,4 +239,5 @@ Projects
   
   <br>
 
+</div>
 </div>
