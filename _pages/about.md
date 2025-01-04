@@ -19,13 +19,8 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
   <strong style="font-size: 24px;">Education</strong>
   <div class="experience-block">
     <div class="hyperlink">
-      <span class="highlight_role">University of Pennsylvania</span> <span class="location">Philadelphia, PA</span>
-      <br><span class="timeframe">Aug 2021 - May 2023</span>
-      <ul>
-        <li>Master of Science in Engineering (MSE) in Robotics</li>
-        <li>GPA: 3.76/4.0</li>
-        <li>Relevant Coursework: Advanced Robotics, Computer Vision, Machine Learning, Deep Learning</li>
-      </ul>
+      <span class="highlight_role">University of Pennsylvania</span> | MS in Mechanical Engineering and Applied Mechanics (Robotics) <span class="location">Philadelphia, PA</span>
+      <br><span class="timeframe">Aug 2021 - May 2023</span> GPA: 3.76/4.0
     </div>
   </div>
 </div>
