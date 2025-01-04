@@ -55,7 +55,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
     <ul>
       <li>Achieved <span class="highlight_important">1st place</span> in the <span class="highlight_important">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight_important">CPS-IoT 2023 conference</span>.</li>
       <li>Implemented a finite state machine to switch between overtaking, adaptive cruise control and pure pursuit modes on an F1Tenth car.</li>
-      <li>Enhanced the accuracy of Local-INN model to predict pose at 40 Hz from 2D LiDAR scans with IMU fusion using UKF. Deployed the neural network using TensorRT on the F1Tenth car for real-time validation.</li>
+      <li>Enhanced the accuracy of <span class="highlight_important">Local-INN model</span> to predict pose at 40 Hz from 2D LiDAR scans with IMU fusion using UKF. Deployed the neural network using TensorRT on the F1Tenth car for real-time validation.</li>
     </ul>
       <div style="text-align: center;">
         <div style="margin-bottom: 20px;">
@@ -168,6 +168,19 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
   <br>
 
   <div class="hyperlink">
+    <span class="highlight_role">LLMs</span>
+  </div>
+
+  <div class="experience-content">
+    <ul>
+      <li><span class="highlight_important">Llama2</span> : Scripted Llama2.7B in pytorch from scratch implementing KV cache, rotary positional encoding. Used pretrained weights for inference validation. 🔗<a href="https://github.com/rohiitb/llama2-pytorch">GitHub</a></li>
+      <li>Vanilla-transformer : Implemented <span class="highlight_important">Attention is all you need</span> from scratch and utilized Distributed Parallel Data training to train the model on multiple GPUs on AWS instance for a language translation task. 🔗<a href="https://github.com/rohiitb/pytorch-transformer">GitHub</a></li>
+    </ul>
+  </div>
+
+  <br>  
+
+  <div class="hyperlink">
     <span class="highlight_role">Pointcloud Pointpainting</span>
   </div>
 
@@ -251,7 +264,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 
   <div class="experience-content">
     <ul>
-      <li>Developed a library for controlling Franka Panda Arm to efficiently pick static and dynamic blocks using apriltags and place them on table. Project code available on 🔗<a href="https://github.com/rohiitb/meam520_labs">GitHub</a></li>
+      <li>Developed a library for controlling <span class="highlight_important">Franka Panda Arm</span> to efficiently pick static and dynamic blocks using apriltags and place them on table. Project code available on 🔗<a href="https://github.com/rohiitb/meam520_labs">GitHub</a></li>
       <li>Developed and implemented a <span class="highlight_important">Model Predictive Control (MPC)</span> system for a 7-DoF robotic manipulator, enabling collision-free trajectory planning in obstacle cluttered environments. 🔗<a href="https://github.com/rohiitb/manipulator_mpc">GitHub</a></li>
     </ul>
     <div style="text-align: center;">
