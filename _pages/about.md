@@ -16,7 +16,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 </div>
 
 <div class="experience-block">
-<strong>Experience</strong>
+<strong style="font-size: 24px;">Experience</strong>
 <div class="experience-block">
 
   <div class="hyperlink">
@@ -138,7 +138,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 
 
 <div class="experience-block">
-<strong>Projects</strong>
+<strong style="font-size: 24px;">Projects</strong>
 <div class="experience-block">
 
   <div class="hyperlink">
