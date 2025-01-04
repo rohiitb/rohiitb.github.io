@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <div class="experience-block">
-<strong>About Me</strong>
+<strong style="font-size: 24px;">About Me</strong>
 <div class="experience-block">
 Hello there! I am a Robotics Software engineer at Terran Robotics. I graduated from University of Pennsylvania majoring in Robotics.
 I have had the opportunity to be a part of multiple projects affiliated to <a href="https://www.grasp.upenn.edu/">GRASP</a> robotics lab at UPenn. 
@@ -104,7 +104,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
   .highlight_role {
       color: #1565c0;
       font-weight: bold;
-      font-size: 1.1em;
+      font-size: 1.05em;
   }
 
   .hyperlink {
