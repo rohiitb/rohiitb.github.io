@@ -19,8 +19,9 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
   <strong style="font-size: 24px;">Education</strong>
   <div class="experience-block">
     <div class="hyperlink">
-      <span class="highlight_role">University of Pennsylvania</span> | MS in Mechanical Engineering and Applied Mechanics (Robotics) <span class="location">Philadelphia, PA</span>
-      <br><span class="timeframe">Aug 2021 - May 2023</span> GPA: 3.76/4.0
+      <span class="highlight_role">University of Pennsylvania</span> | GPA: 3.76/4.0 <span class="timeframe">Aug 2021 - May 2023</span> 
+      MS in Mechanical Engineering and Applied Mechanics (Robotics)
+      <br>
     </div>
   </div>
 </div>
