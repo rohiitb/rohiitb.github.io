@@ -25,12 +25,15 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 
   <div class="experience-content">
     <ul>
-      <li>Developed a custom <span class="highlight_important">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags and encoder data, and implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight_important">10 Hz pose output with 5 mm accuracy</span>.</li>
-      <li>Designed and implemented adaptive algorithm to autonomously perform pick-and-place operations on earthern-clay blobs and hammer them into walls using pointcloud data, utilized a neural network to predict the depthmap based on the hammer hits and optimize hits accordingly, resulted in <span class="highlight_important">30% faster speed, 2x more accuracy</span>.</li>
+      <li>Developed a <span class="highlight_important">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags, implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight_important">10 Hz pose output with 5 mm accuracy</span>. Fused encoder odometry data to improve pose estimation using Kalman Filter.</li>
+      <li>Designed end-to-end neural network to hammer earthern clay into walls, increasing speed by 30% and 40% redundancy reduction. Designed task-specific prediction heads to improve end-to-end performance, resulted in <span class="highlight_important">30% faster speed, 2x more accuracy</span>.</li>
+      <li>Developed <span class="highlight_important">A* based obstacle avoidance planner</span> to navigate across walls on a construction build site. </li>
+      <li>Scripted gradient descent based optimization algorithm for extrinsics calibration.</li>
       <li>Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations.</li>
-      <li>Scripted pipeline to convert stl CAD files of house walls to 2-dimensional goal depth maps and plan operations.</li>
+      <li>Architected pipeline to convert stl CAD files of house walls to 2-dimensional goal depth maps for planning operations.</li>
     </ul>
   </div>
+
 
   <div class="hyperlink">
     <span class="highlight_role">Perception Intern</span> | 🔗 <a href="https://skymul.com/">Skymul</a> <span class="location">Atlanta, GA</span> <br> <span class="timeframe">May 2022 - Aug 2022</span>
@@ -52,6 +55,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
     <ul>
       <li>Achieved <span class="highlight_important">1st place</span> in the <span class="highlight_important">12th F1Tenth Autonomous Grand Prix</span> at the <span class="highlight_important">CPS-IoT 2023 conference</span>.</li>
       <li>Implemented a finite state machine to switch between overtaking, adaptive cruise control and pure pursuit modes on an F1Tenth car.</li>
+      <li>Enhanced the accuracy of Local-INN model to predict pose at 40 Hz from 2D LiDAR scans with IMU fusion using UKF. Deployed the neural network using TensorRT on the F1Tenth car for real-time validation.</li>
     </ul>
       <div style="text-align: center;">
         <div style="margin-bottom: 20px;">
@@ -164,6 +168,21 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
   <br>
 
   <div class="hyperlink">
+    <span class="highlight_role">Pointcloud Pointpainting</span>
+  </div>
+
+  <div class="experience-content">
+    <ul>
+      <li>Fused LiDAR and Camera data to paint pointcloud as per semantic information from images to classify each point using <span class="highlight_important">SegFormer</span> on KITTI dataset. Obtained segmented BEV for the autonomous vehicle. 🔗<a href="https://github.com/rohiitb/semantic_mapping_icp">GitHub</a></li>
+    </ul>
+    <div style="text-align: center;">
+      <img src="images/seg_combined_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+    </div>
+  </div>
+
+  <br>
+
+  <div class="hyperlink">
     <span class="highlight_role">3D Reconstruction</span>
   </div>
 
@@ -195,13 +214,17 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 
   <div class="experience-content">
     <ul>
-      <li>Implemented geometric non-linear controller for collision-free quadrotor navigation along optimal trajectories generated using A* path planning and trajectory smoothing.</li>
-      <li>Implemented stereo MSCKF visual-inertial odometry for robust high-speed robot pose estimation. 🔗<a href="https://github.com/rohiitb/msckf_vio_python">GitHub</a></li>
-      <li>Implemented Unscented Kalman filter for 3D orientation tracking using IMU sensor data, with model parameters learned from Vicon motion capture ground truth. 🔗<a href="https://github.com/rohiitb/Orientation_tracking_using_UKF">GitHub</a></li>
+      <li>Implemented geometric non-linear controller for collision-free quadrotor navigation along optimal trajectories generated using A* path planning and trajectory smoothing. 🔗<a href="https://github.com/rohiitb/Quadrotor_planning_and_control">GitHub</a></li>
+      <li>Implemented <span class="highlight_important">stereo MSCKF visual-inertial odometry</span> for robust high-speed robot pose estimation. 🔗<a href="https://github.com/rohiitb/msckf_vio_python">GitHub</a></li>
+      <li>Implemented <span class="highlight_important">Unscented Kalman filter</span> for 3D orientation tracking using IMU sensor data, with model parameters learned from Vicon motion capture ground truth. 🔗<a href="https://github.com/rohiitb/Orientation_tracking_using_UKF">GitHub</a></li>
     </ul>
     <div style="text-align: center;">
-        <img src="images/crazyflie.gif" style="height: 250px; width: 250px; margin: 10px 30px;"> 
-        <img src="images/msckf_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+        <a href="https://github.com/rohiitb/msckf_vio_python">
+          <img src="images/msckf_gif.gif" style="height: 250px; width: 250px; margin: 10px 30px;">
+        </a>
+        <a href="https://github.com/rohiitb/Quadrotor_planning_and_control">
+          <img src="images/crazyflie.gif" style="height: 250px; width: 250px; margin: 10px 30px;"> 
+        </a>
     </div>
   </div>
 
@@ -229,7 +252,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
   <div class="experience-content">
     <ul>
       <li>Developed a library for controlling Franka Panda Arm to efficiently pick static and dynamic blocks using apriltags and place them on table. Project code available on 🔗<a href="https://github.com/rohiitb/meam520_labs">GitHub</a></li>
-      <li></li>
+      <li>Developed and implemented a <span class="highlight_important">Model Predictive Control (MPC)</span> system for a 7-DoF robotic manipulator, enabling collision-free trajectory planning in obstacle cluttered environments. 🔗<a href="https://github.com/rohiitb/manipulator_mpc">GitHub</a></li>
     </ul>
     <div style="text-align: center;">
         <img src="images/ppr.gif" style="height: 250px; width: 250px; margin: 10px 30px;"> 
