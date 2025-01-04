@@ -38,7 +38,7 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
   <div class="experience-content">
     <ul>
       <li>Developed a <span class="highlight_important">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags, implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight_important">10 Hz pose output with 5 mm accuracy</span>. Fused encoder odometry data to improve pose estimation using Kalman Filter.</li>
-      <li>Designed end-to-end neural network to hammer earthern clay into walls, increasing speed by 30% and 40% redundancy reduction. Designed task-specific prediction heads to improve end-to-end performance, resulted in <span class="highlight_important">30% faster speed, 2x more accuracy</span>.</li>
+      <li>Designed end-to-end neural network to hammer earthern clay into walls. Designed task-specific prediction heads to improve end-to-end performance, resulted in <span class="highlight_important">30% faster speed, 2x more accuracy</span>.</li>
       <li>Developed <span class="highlight_important">A* based obstacle avoidance planner</span> to navigate across walls on a construction build site. </li>
       <li>Scripted gradient descent based optimization algorithm for extrinsics calibration.</li>
       <li>Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations.</li>
