@@ -56,6 +56,11 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
       <li>Built a novel algorithm to <span class="highlight_important">detect rebar intersections</span> and pose from noisy pointclouds real-time (6 FPS) in a densely multilayered rebar network on quadraped robot.</li>
       <li>Developed end-to-end pipeline to get the pointcloud of construction sites using photogrammetry.</li>
     </ul>
+      <div style="text-align: center;">
+        <div>
+          <iframe width="600" height="400" src="https://www.youtube.com/embed/urHhzivcJ-Q?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
   </div>
 
 
