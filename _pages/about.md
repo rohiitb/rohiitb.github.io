@@ -169,9 +169,9 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 
   <div class="experience-content">
     <ul>
-      <li>Implemented <span class="highlight_important">Mask-RCNN</span> object detection and instance segmentation pipeline from scratch on COCO dataset. 🔗<a href="https://github.com/rohiitb/MaskRCNN">GitHub</a></li>
-      <li>Scripted <span class="highlight_important">YOLO-v1</span> object detection system from ground up. Achieved mAP of 0.43. 🔗<a href="https://github.com/rohiitb/YOLO">GitHub</a></li>
-      <li>Implemented <span class="highlight_important">SOLO</span> instance segmentation model. 🔗<a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a></li>
+      <li>Implemented a <span class="highlight_important">Mask-RCNN</span> pipeline from scratch for object detection and instance segmentation, including architecture development, pre-processing, and post-processing, and successfully trained the model on the COCO dataset. 🔗<a href="https://github.com/rohiitb/MaskRCNN">GitHub</a></li>
+      <li>Developed a <span class="highlight_important">YOLO-v1</span> object detection pipeline from scratch, including network architecture, loss function implementation, and data augmentation pipeline, achieving mAP of 0.43. 🔗<a href="https://github.com/rohiitb/YOLO">GitHub</a></li>
+      <li>Built a <span class="highlight_important">SOLO</span> instance segmentation pipeline from scratch, implementing the network architecture, FPN backbone, and matrix NMS post-processing for efficient instance mask prediction on COCO dataset. 🔗<a href="https://github.com/rohiitb/SOLO_Instance_segmentation">GitHub</a></li>
     </ul>
     <div style="text-align: center;">
         <a href="https://github.com/rohiitb/YOLO">
