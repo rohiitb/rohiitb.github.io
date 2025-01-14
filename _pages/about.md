@@ -37,11 +37,12 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 
   <div class="experience-content">
     <ul>
-      <li>Developed a <span class="highlight_important">GTSAM-based localization solution</span> to estimate cable-driven parallel robots pose using AprilTags, implemented a parallel processing pipeline with distributed computing framework python ray in ROS to achieve <span class="highlight_important">10 Hz pose output with 5 mm accuracy</span>. Fused encoder odometry data to improve pose estimation using Kalman Filter.</li>
-      <li>Designed end-to-end neural network to hammer earthern clay into walls. Designed task-specific prediction heads to improve end-to-end performance, resulted in <span class="highlight_important">30% faster speed, 2x more accuracy</span>.</li>
-      <li>Developed <span class="highlight_important">A* based obstacle avoidance planner</span> to navigate across walls on a construction build site. </li>
-      <li>Scripted gradient descent based optimization algorithm for extrinsics calibration.</li>
-      <li>Scripted python deployment scripts for maintaining and managing services across kubernetes cluster for robot operations.</li>
+      <li>Developed a <span class="highlight_important">depth-image based neural network</span> leveraging multimodal data to optimize hammer operations for shaping earthen clay into construction walls, achieving <span class="highlight_important">40% speed improvement</span> and deployed the solution using TensorRT.</li>
+      <li>Built a <span class="highlight_important">GTSAM-based ROS2 localization package</span> using AprilTags for 10 Hz pose estimation with 5 mm accuracy, fusing pose estimates with a custom neural network-predicted odometry via <span class="highlight_important">Extended Kalman filter</span>.</li>
+      <li>Designed an online <span class="highlight_important">A* based obstacle avoidance planner</span> to navigate across walls on a construction build site. </li>
+      <li>Developed a gradient descent-based optimization algorithm for extrinsics calibration, correcting rotational bias by
+      aligning estimated camera poses with actual poses using AprilTag grid and PnP.</li>
+      <li>Developed Python scripts for deploying services on Kubernetes with CI/CD integration and an optimized pipeline to fetch data from MongoDB and train neural networks on Google Cloud Platform.</li>
       <li>Architected pipeline to convert stl CAD files of house walls to 2-dimensional goal depth maps for planning operations.</li>
     </ul>
   </div>
