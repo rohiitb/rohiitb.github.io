@@ -8,7 +8,7 @@ author_profile: true
 <div class="experience-block">
 <strong style="font-size: 24px;">About Me</strong>
 <div class="experience-block">
-Hello there! I am a Robotics Software engineer at Terran Robotics. I graduated from University of Pennsylvania majoring in Robotics.
+Hello there! I am a Perception engineer at Pickle Robot. I graduated from University of Pennsylvania majoring in Robotics.
 I have had the opportunity to be a part of multiple projects affiliated to <a href="https://www.grasp.upenn.edu/">GRASP</a> robotics lab at UPenn. 
 My projects have exposed me to various topics related to motion-planning, perception, computer vision and controls.
 In my leisure time, I like to go on hikes and play soccer. I am also a big motorsports racing fan.
@@ -31,8 +31,22 @@ In my leisure time, I like to go on hikes and play soccer. I am also a big motor
 <strong style="font-size: 24px;">Experience</strong>
 <div class="experience-block">
 
+<div class="hyperlink">
+    <span class="highlight_role">Perception Engineer</span> | 🔗 <a href="https://www.picklerobot.com/">Pickle Robot</a> <span class="location">Boston, MA</span> <br> <span class="timeframe">June 2025 - Present</span>
+  </div>
+
+  <div class="experience-content">
+    <ul>
+      <li>Designed and deployed a high-speed conveyor package-counting system using 2 RGBD cameras achieving over 90% accuracy, reliably handling multipicks and occlusions.</li>
+      <li>Building a pipeline using VLMs to automatically detect and categorize operational failure modes in robotics workflows from video feed.</li>
+      <li>Spearheaded development of key components for a scene-perception-driven localization framework ensuring robust ramp and container detection, strengthening navigation reliability. </li>
+      <li>Developed a 3D perception algorithm to extract container walls and ceiling dimensions from RGB-D data.</li>
+      <li>Built a metric logging system to capture success and failure behaviors, enabling streamlined debugging and analytics visualization using BigQuery and Grafana.</li>
+    </ul>
+  </div>
+
   <div class="hyperlink">
-    <span class="highlight_role">Senior Robotics Software Engineer</span> | 🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> <span class="location">Bloomington, IN</span> <br> <span class="timeframe">June 2023 - Present</span>
+    <span class="highlight_role">Senior Robotics Software Engineer</span> | 🔗 <a href="https://terranrobotics.ai/">Terran Robotics</a> <span class="location">Bloomington, IN</span> <br> <span class="timeframe">June 2023 - June 2025</span>
   </div>
 
   <div class="experience-content">
